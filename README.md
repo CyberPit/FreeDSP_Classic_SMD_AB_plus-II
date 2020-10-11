@@ -6,7 +6,7 @@
 - PCM5102A for DIG6/7
 - ADAU1701 Board with selectable A/B Boot EEPROMs
 - 0805(2.0mm x 1.25mm) SMD Resistors & Capacitors
-- Thtough-Hole Ele-Caps
+- Through-Hole Ele-Caps
 - Unity Gain Analog Audio I/O
 - Absolute Phase transpearent.
 - Power ON/OFF/Reset Audio Pops Mute
