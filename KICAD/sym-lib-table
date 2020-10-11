@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name FreeDSP_SMD-rescue)(type Legacy)(uri ${KIPRJMOD}/FreeDSP_SMD-rescue.lib)(options "")(descr ""))
+  (lib (name microlink-rescue)(type Legacy)(uri /Volumes/iMacHDD/Users/HILO/Documents/KICAD_DATA/MICROLINK/microlink-rescue.lib)(options "")(descr ""))
+  (lib (name USBi_Programmer-rescue)(type Legacy)(uri /Volumes/iMacHDD/Users/HILO/Documents/KICAD_DATA/FreeUSBi_0v4/USBi_Programmer-rescue.lib)(options "")(descr ""))
+  (lib (name FreeDSP_SMD_AB_plus-rescue)(type Legacy)(uri ${KIPRJMOD}/FreeDSP_SMD_AB_plus-rescue.lib)(options "")(descr ""))
+)

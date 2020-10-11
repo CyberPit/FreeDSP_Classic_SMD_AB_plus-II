@@ -1,0 +1,5452 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 2
+Title "FreeDSP Classic SMD A/B plus II (1of2)"
+Date "2020-10-04"
+Rev "0.2"
+Comp "CyberPit HILO"
+Comment1 "https://cyberpithilo.web.fc2.com/"
+Comment2 ""
+Comment3 "Designed by Hiroshi Fukushima"
+Comment4 "FreeDSP ADAU1701 Switchable A/B plus 2 SMD Board"
+$EndDescr
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:ADAU1701-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue IC1
+U 1 1 55396BF6
+P 6625 6400
+F 0 "IC1" H 6475 6250 60  0000 C CNN
+F 1 "ADAU1701" H 6625 6400 60  0000 C CNN
+F 2 "Housings_QFP:LQFP-48_7x7mm_Pitch0.5mm" H 6525 6500 60  0001 C CNN
+F 3 "" H 6525 6500 60  0000 C CNN
+	1    6625 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR045
+U 1 1 55397111
+P 5650 5425
+F 0 "#PWR045" H 5650 5425 30  0001 C CNN
+F 1 "GND" H 5650 5355 30  0001 C CNN
+F 2 "" H 5650 5425 60  0000 C CNN
+F 3 "" H 5650 5425 60  0000 C CNN
+	1    5650 5425
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R36
+U 1 1 55397120
+P 5275 5950
+F 0 "R36" V 5300 5725 40  0000 C CNN
+F 1 "18k" V 5282 5951 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5205 5950 30  0001 C CNN
+F 3 "~" H 5275 5950 30  0000 C CNN
+	1    5275 5950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R40
+U 1 1 55397132
+P 4800 6050
+F 0 "R40" V 4825 5825 40  0000 C CNN
+F 1 "18k" V 4807 6051 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4730 6050 30  0001 C CNN
+F 3 "~" H 4800 6050 30  0000 C CNN
+	1    4800 6050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R46
+U 1 1 55397139
+P 5275 6150
+F 0 "R46" V 5300 5925 40  0000 C CNN
+F 1 "18k" V 5282 6151 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5205 6150 30  0001 C CNN
+F 3 "~" H 5275 6150 30  0000 C CNN
+	1    5275 6150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R49
+U 1 1 55397145
+P 4675 7175
+F 0 "R49" V 4755 7175 40  0000 C CNN
+F 1 "4.7k" V 4675 7175 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4605 7175 30  0001 C CNN
+F 3 "~" H 4675 7175 30  0000 C CNN
+	1    4675 7175
+	-1   0    0    1   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:3V3-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR062
+U 1 1 5539714F
+P 4675 6850
+F 0 "#PWR062" H 4675 6950 40  0001 C CNN
+F 1 "3V3" H 4675 6975 40  0000 C CNN
+F 2 "" H 4675 6850 60  0000 C CNN
+F 3 "" H 4675 6850 60  0000 C CNN
+	1    4675 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:3V3-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR054
+U 1 1 5539715C
+P 5525 6350
+F 0 "#PWR054" H 5525 6450 40  0001 C CNN
+F 1 "3V3" H 5525 6475 40  0000 C CNN
+F 2 "" H 5525 6350 60  0000 C CNN
+F 3 "" H 5525 6350 60  0000 C CNN
+	1    5525 6350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR057
+U 1 1 55397162
+P 5525 6450
+F 0 "#PWR057" H 5525 6450 30  0001 C CNN
+F 1 "GND" H 5525 6380 30  0001 C CNN
+F 2 "" H 5525 6450 60  0000 C CNN
+F 3 "" H 5525 6450 60  0000 C CNN
+	1    5525 6450
+	0    1    1    0   
+$EndComp
+Text Label 5275 6550 0    60   ~ 0
+MP4
+Text Label 5275 6650 0    60   ~ 0
+MP5
+Text Label 5275 6750 0    60   ~ 0
+MP1
+Text Label 5275 6850 0    60   ~ 0
+MP0
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR063
+U 1 1 553971E5
+P 5525 6950
+F 0 "#PWR063" H 5525 6950 30  0001 C CNN
+F 1 "GND" H 5525 6880 30  0001 C CNN
+F 2 "" H 5525 6950 60  0000 C CNN
+F 3 "" H 5525 6950 60  0000 C CNN
+	1    5525 6950
+	0    1    1    0   
+$EndComp
+Text Label 6175 7775 1    60   ~ 0
+MP7
+Text Label 6275 7775 1    60   ~ 0
+MP6
+Text Label 6375 7775 1    60   ~ 0
+MP10
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:3V3-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR086
+U 1 1 55397200
+P 6975 8575
+F 0 "#PWR086" H 6975 8675 40  0001 C CNN
+F 1 "3V3" H 6975 8700 40  0000 C CNN
+F 2 "" H 6975 8575 60  0000 C CNN
+F 3 "" H 6975 8575 60  0000 C CNN
+	1    6975 8575
+	0    1    -1   0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R60
+U 1 1 55397206
+P 6725 8275
+F 0 "R60" V 6805 8275 40  0000 C CNN
+F 1 "1k" V 6732 8276 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6655 8275 30  0001 C CNN
+F 3 "~" H 6725 8275 30  0000 C CNN
+	1    6725 8275
+	0    -1   1    0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue C43
+U 1 1 55397343
+P 6075 8775
+F 0 "C43" H 6075 8875 40  0000 L CNN
+F 1 "10u" H 6081 8690 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6113 8625 30  0001 C CNN
+F 3 "~" H 6075 8775 60  0000 C CNN
+	1    6075 8775
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue C44
+U 1 1 55397350
+P 6275 8775
+F 0 "C44" H 6275 8875 40  0000 L CNN
+F 1 "100n" H 6281 8690 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6313 8625 30  0001 C CNN
+F 3 "~" H 6275 8775 60  0000 C CNN
+	1    6275 8775
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR0100
+U 1 1 55397356
+P 6075 8975
+F 0 "#PWR0100" H 6075 8975 30  0001 C CNN
+F 1 "GND" H 6075 8905 30  0001 C CNN
+F 2 "" H 6075 8975 60  0000 C CNN
+F 3 "" H 6075 8975 60  0000 C CNN
+	1    6075 8975
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR0101
+U 1 1 5539735C
+P 6275 8975
+F 0 "#PWR0101" H 6275 8975 30  0001 C CNN
+F 1 "GND" H 6275 8905 30  0001 C CNN
+F 2 "" H 6275 8975 60  0000 C CNN
+F 3 "" H 6275 8975 60  0000 C CNN
+	1    6275 8975
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:3V3-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR071
+U 1 1 5539749C
+P 6575 8000
+F 0 "#PWR071" H 6575 8100 40  0001 C CNN
+F 1 "3V3" H 6575 8125 40  0000 C CNN
+F 2 "" H 6575 8000 60  0000 C CNN
+F 3 "" H 6575 8000 60  0000 C CNN
+	1    6575 8000
+	1    0    0    1   
+$EndComp
+Text Label 6675 7775 1    60   ~ 0
+MP11
+Text Label 7750 8075 2    60   ~ 0
+WB
+Text Label 7750 7950 2    60   ~ 0
+WP
+Text Label 6975 7750 1    60   ~ 0
+SDA
+Text Label 7075 7750 1    60   ~ 0
+SCL
+Text Label 8000 6850 2    60   ~ 0
+MP9
+Text Label 8000 6750 2    60   ~ 0
+MP8
+Text Label 8000 6650 2    60   ~ 0
+MP3
+Text Label 8000 6550 2    60   ~ 0
+MP2
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR058
+U 1 1 5539754C
+P 7725 6450
+F 0 "#PWR058" H 7725 6450 30  0001 C CNN
+F 1 "GND" H 7725 6380 30  0001 C CNN
+F 2 "" H 7725 6450 60  0000 C CNN
+F 3 "" H 7725 6450 60  0000 C CNN
+	1    7725 6450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R48
+U 1 1 55397552
+P 8575 6350
+F 0 "R48" V 8655 6350 40  0000 C CNN
+F 1 "100R" V 8582 6351 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 8505 6350 30  0001 C CNN
+F 3 "~" H 8575 6350 30  0000 C CNN
+	1    8575 6350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:CRYSTAL-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue X1
+U 1 1 55397564
+P 9125 6350
+F 0 "X1" H 9125 6500 60  0000 C CNN
+F 1 "12.288MHz" H 9125 6200 60  0000 C CNN
+F 2 "Crystals:Crystal_HC49-U_Vertical" H 9125 6350 60  0001 C CNN
+F 3 "~" H 9125 6350 60  0000 C CNN
+	1    9125 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue C27
+U 1 1 553975B5
+P 8825 6600
+F 0 "C27" H 8825 6700 40  0000 L CNN
+F 1 "33p" H 8831 6515 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8863 6450 30  0001 C CNN
+F 3 "~" H 8825 6600 60  0000 C CNN
+	1    8825 6600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue C28
+U 1 1 553975C0
+P 9425 6600
+F 0 "C28" H 9425 6700 40  0000 L CNN
+F 1 "33p" H 9431 6515 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 9463 6450 30  0001 C CNN
+F 3 "~" H 9425 6600 60  0000 C CNN
+	1    9425 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR060
+U 1 1 553975C6
+P 8825 6800
+F 0 "#PWR060" H 8825 6800 30  0001 C CNN
+F 1 "GND" H 8825 6730 30  0001 C CNN
+F 2 "" H 8825 6800 60  0000 C CNN
+F 3 "" H 8825 6800 60  0000 C CNN
+	1    8825 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR061
+U 1 1 553975CC
+P 9425 6800
+F 0 "#PWR061" H 9425 6800 30  0001 C CNN
+F 1 "GND" H 9425 6730 30  0001 C CNN
+F 2 "" H 9425 6800 60  0000 C CNN
+F 3 "" H 9425 6800 60  0000 C CNN
+	1    9425 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR051
+U 1 1 55397678
+P 7725 6150
+F 0 "#PWR051" H 7725 6150 30  0001 C CNN
+F 1 "GND" H 7725 6080 30  0001 C CNN
+F 2 "" H 7725 6150 60  0000 C CNN
+F 3 "" H 7725 6150 60  0000 C CNN
+	1    7725 6150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:3V3-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR048
+U 1 1 5539767E
+P 7725 6050
+F 0 "#PWR048" H 7725 6150 40  0001 C CNN
+F 1 "3V3" H 7725 6175 40  0000 C CNN
+F 2 "" H 7725 6050 60  0000 C CNN
+F 3 "" H 7725 6050 60  0000 C CNN
+	1    7725 6050
+	0    1    1    0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R37
+U 1 1 55397684
+P 8375 5950
+F 0 "R37" V 8455 5950 40  0000 C CNN
+F 1 "470R" V 8382 5951 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 8305 5950 30  0001 C CNN
+F 3 "~" H 8375 5950 30  0000 C CNN
+	1    8375 5950
+	0    1    1    0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue C20
+U 1 1 5539768A
+P 8625 5750
+F 0 "C20" H 8625 5850 40  0000 L CNN
+F 1 "56n" H 8631 5665 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8663 5600 30  0001 C CNN
+F 3 "~" H 8625 5750 60  0000 C CNN
+	1    8625 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue C19
+U 1 1 55397690
+P 8125 5750
+F 0 "C19" H 8125 5850 40  0000 L CNN
+F 1 "3n3" H 8131 5665 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8163 5600 30  0001 C CNN
+F 3 "~" H 8125 5750 60  0000 C CNN
+	1    8125 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR040
+U 1 1 55397770
+P 7175 5300
+F 0 "#PWR040" H 7175 5300 30  0001 C CNN
+F 1 "GND" H 7175 5230 30  0001 C CNN
+F 2 "" H 7175 5300 60  0000 C CNN
+F 3 "" H 7175 5300 60  0000 C CNN
+	1    7175 5300
+	-1   0    0    1   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR039
+U 1 1 55397776
+P 7075 5300
+F 0 "#PWR039" H 7075 5300 30  0001 C CNN
+F 1 "GND" H 7075 5230 30  0001 C CNN
+F 2 "" H 7075 5300 60  0000 C CNN
+F 3 "" H 7075 5300 60  0000 C CNN
+	1    7075 5300
+	-1   0    0    1   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:3V3-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR038
+U 1 1 5539777C
+P 6975 5300
+F 0 "#PWR038" H 6975 5400 40  0001 C CNN
+F 1 "3V3" H 6975 5425 40  0000 C CNN
+F 2 "" H 6975 5300 60  0000 C CNN
+F 3 "" H 6975 5300 60  0000 C CNN
+	1    6975 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue C16
+U 1 1 55397782
+P 6875 4800
+F 0 "C16" H 6725 4675 40  0000 L CNN
+F 1 "10u" H 6725 4725 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6913 4650 30  0001 C CNN
+F 3 "~" H 6875 4800 60  0000 C CNN
+	1    6875 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR032
+U 1 1 55397788
+P 6875 4600
+F 0 "#PWR032" H 6875 4600 30  0001 C CNN
+F 1 "GND" H 6875 4530 30  0001 C CNN
+F 2 "" H 6875 4600 60  0000 C CNN
+F 3 "" H 6875 4600 60  0000 C CNN
+	1    6875 4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue C12
+U 1 1 5539784E
+P 6775 4450
+F 0 "C12" H 6775 4550 40  0000 L CNN
+F 1 "10u" H 6781 4365 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6813 4300 30  0001 C CNN
+F 3 "~" H 6775 4450 60  0000 C CNN
+	1    6775 4450
+	-1   0    0    1   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue C15
+U 1 1 55397854
+P 6175 4750
+F 0 "C15" H 6175 4850 40  0000 L CNN
+F 1 "10u" H 6181 4665 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6213 4600 30  0001 C CNN
+F 3 "~" H 6175 4750 60  0000 C CNN
+	1    6175 4750
+	-1   0    0    1   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR029
+U 1 1 5539785A
+P 6775 4250
+F 0 "#PWR029" H 6775 4250 30  0001 C CNN
+F 1 "GND" H 6775 4180 30  0001 C CNN
+F 2 "" H 6775 4250 60  0000 C CNN
+F 3 "" H 6775 4250 60  0000 C CNN
+	1    6775 4250
+	-1   0    0    1   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR031
+U 1 1 55397860
+P 6175 4550
+F 0 "#PWR031" H 6175 4550 30  0001 C CNN
+F 1 "GND" H 6175 4480 30  0001 C CNN
+F 2 "" H 6175 4550 60  0000 C CNN
+F 3 "" H 6175 4550 60  0000 C CNN
+	1    6175 4550
+	-1   0    0    1   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:3V3-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR046
+U 1 1 55397893
+P 7725 5850
+F 0 "#PWR046" H 7725 5950 40  0001 C CNN
+F 1 "3V3" H 7725 5975 40  0000 C CNN
+F 2 "" H 7725 5850 60  0000 C CNN
+F 3 "" H 7725 5850 60  0000 C CNN
+	1    7725 5850
+	0    1    1    0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:3V3-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR036
+U 1 1 55397899
+P 6075 5300
+F 0 "#PWR036" H 6075 5400 40  0001 C CNN
+F 1 "3V3" H 6075 5425 40  0000 C CNN
+F 2 "" H 6075 5300 60  0000 C CNN
+F 3 "" H 6075 5300 60  0000 C CNN
+	1    6075 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR037
+U 1 1 55397ABF
+P 6675 5300
+F 0 "#PWR037" H 6675 5300 30  0001 C CNN
+F 1 "GND" H 6675 5230 30  0001 C CNN
+F 2 "" H 6675 5300 60  0000 C CNN
+F 3 "" H 6675 5300 60  0000 C CNN
+	1    6675 5300
+	-1   0    0    1   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue C3
+U 1 1 55397CDA
+P 12125 1775
+F 0 "C3" H 12125 1875 40  0000 L CNN
+F 1 "1000PF" H 12131 1690 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 12163 1625 30  0001 C CNN
+F 3 "~" H 12125 1775 60  0000 C CNN
+	1    12125 1775
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R7
+U 1 1 55397CE0
+P 12550 1975
+F 0 "R7" V 12630 1975 40  0000 C CNN
+F 1 "1k" V 12557 1976 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 12480 1975 30  0001 C CNN
+F 3 "~" H 12550 1975 30  0000 C CNN
+	1    12550 1975
+	0    -1   -1   0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue C5
+U 1 1 55397D00
+P 12575 2175
+F 0 "C5" V 12525 1975 40  0000 L CNN
+F 1 "150p" V 12625 1975 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 12613 2025 30  0001 C CNN
+F 3 "~" H 12575 2175 60  0000 C CNN
+	1    12575 2175
+	0    1    1    0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R3
+U 1 1 55397D24
+P 12550 1575
+F 0 "R3" V 12630 1575 40  0000 C CNN
+F 1 "1k" V 12557 1576 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 12480 1575 30  0001 C CNN
+F 3 "~" H 12550 1575 30  0000 C CNN
+	1    12550 1575
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP C4
+U 1 1 55397E8A
+P 13825 1875
+F 0 "C4" H 13825 1975 40  0000 L CNN
+F 1 "10u" H 13831 1790 40  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 13863 1725 30  0001 C CNN
+F 3 "~" H 13825 1875 60  0000 C CNN
+	1    13825 1875
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:CP C9
+U 1 1 55397F07
+P 13825 3800
+F 0 "C9" H 13825 3900 40  0000 L CNN
+F 1 "10u" H 13831 3715 40  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 13863 3650 30  0001 C CNN
+F 3 "~" H 13825 3800 60  0000 C CNN
+	1    13825 3800
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:CP C23
+U 1 1 55397F39
+P 13800 5850
+F 0 "C23" H 13800 5950 40  0000 L CNN
+F 1 "10u" H 13806 5765 40  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 13838 5700 30  0001 C CNN
+F 3 "~" H 13800 5850 60  0000 C CNN
+	1    13800 5850
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:CP C33
+U 1 1 55397F6B
+P 13800 7900
+F 0 "C33" H 13800 8000 40  0000 L CNN
+F 1 "10u" H 13806 7815 40  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 13838 7750 30  0001 C CNN
+F 3 "~" H 13800 7900 60  0000 C CNN
+	1    13800 7900
+	0    -1   1    0   
+$EndComp
+Text Label 6575 5050 3    60   ~ 0
+DAC3
+Text Label 6475 5050 3    60   ~ 0
+DAC2
+Text Label 6375 5050 3    60   ~ 0
+DAC1
+Text Label 6275 5050 3    60   ~ 0
+DAC0
+Text Label 11325 1575 0    60   ~ 0
+DAC0
+Text Label 11350 3500 0    60   ~ 0
+DAC1
+Text Label 11300 5550 0    60   ~ 0
+DAC2
+Text Label 11325 7600 0    60   ~ 0
+DAC3
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR053
+U 1 1 55398530
+P 13075 6200
+F 0 "#PWR053" H 13075 6200 30  0001 C CNN
+F 1 "GND" H 13075 6130 30  0001 C CNN
+F 2 "" H 13075 6200 60  0000 C CNN
+F 3 "" H 13075 6200 60  0000 C CNN
+	1    13075 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue C35
+U 1 1 55398B6B
+P 14900 8200
+F 0 "C35" H 14900 8300 40  0000 L CNN
+F 1 "3n3" H 14906 8115 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 14938 8050 30  0001 C CNN
+F 3 "~" H 14900 8200 60  0000 C CNN
+	1    14900 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R62
+U 1 1 55398B7C
+P 14700 8150
+F 0 "R62" V 14780 8150 40  0000 C CNN
+F 1 "47k" V 14707 8151 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 14630 8150 30  0001 C CNN
+F 3 "~" H 14700 8150 30  0000 C CNN
+	1    14700 8150
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R56
+U 1 1 55398B8C
+P 14200 7900
+F 0 "R56" V 14280 7900 40  0000 C CNN
+F 1 "680R" V 14207 7901 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 14130 7900 30  0001 C CNN
+F 3 "~" H 14200 7900 30  0000 C CNN
+	1    14200 7900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue C26
+U 1 1 55398D52
+P 14825 6150
+F 0 "C26" H 14825 6250 40  0000 L CNN
+F 1 "3n3" H 14831 6065 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 14863 6000 30  0001 C CNN
+F 3 "~" H 14825 6150 60  0000 C CNN
+	1    14825 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R41
+U 1 1 55398D58
+P 14625 6100
+F 0 "R41" V 14705 6100 40  0000 C CNN
+F 1 "47k" V 14632 6101 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 14555 6100 30  0001 C CNN
+F 3 "~" H 14625 6100 30  0000 C CNN
+	1    14625 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R35
+U 1 1 55398D5E
+P 14200 5850
+F 0 "R35" V 14280 5850 40  0000 C CNN
+F 1 "680R" V 14207 5851 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 14130 5850 30  0001 C CNN
+F 3 "~" H 14200 5850 30  0000 C CNN
+	1    14200 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue C11
+U 1 1 55398D73
+P 14925 4100
+F 0 "C11" H 14925 4200 40  0000 L CNN
+F 1 "3n3" H 14931 4015 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 14963 3950 30  0001 C CNN
+F 3 "~" H 14925 4100 60  0000 C CNN
+	1    14925 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R25
+U 1 1 55398D79
+P 14725 4050
+F 0 "R25" V 14805 4050 40  0000 C CNN
+F 1 "47k" V 14732 4051 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 14655 4050 30  0001 C CNN
+F 3 "~" H 14725 4050 30  0000 C CNN
+	1    14725 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R22
+U 1 1 55398D7F
+P 14250 3800
+F 0 "R22" V 14330 3800 40  0000 C CNN
+F 1 "680R" V 14257 3801 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 14180 3800 30  0001 C CNN
+F 3 "~" H 14250 3800 30  0000 C CNN
+	1    14250 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue C6
+U 1 1 55398D94
+P 14875 2175
+F 0 "C6" H 14875 2275 40  0000 L CNN
+F 1 "3n3" H 14881 2090 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 14913 2025 30  0001 C CNN
+F 3 "~" H 14875 2175 60  0000 C CNN
+	1    14875 2175
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R10
+U 1 1 55398D9A
+P 14675 2125
+F 0 "R10" V 14755 2125 40  0000 C CNN
+F 1 "47k" V 14682 2126 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 14605 2125 30  0001 C CNN
+F 3 "~" H 14675 2125 30  0000 C CNN
+	1    14675 2125
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R5
+U 1 1 55398DA0
+P 14250 1875
+F 0 "R5" V 14330 1875 40  0000 C CNN
+F 1 "680R" V 14257 1876 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 14180 1875 30  0001 C CNN
+F 3 "~" H 14250 1875 30  0000 C CNN
+	1    14250 1875
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:CP C38
+U 1 1 5539951C
+P 3650 8675
+F 0 "C38" H 3700 8775 40  0000 L CNN
+F 1 "220u" H 3475 8600 40  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 3750 8525 30  0001 C CNN
+F 3 "~" H 3650 8675 300 0000 C CNN
+	1    3650 8675
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:CP C39
+U 1 1 55399538
+P 4550 8675
+F 0 "C39" H 4575 8775 40  0000 L CNN
+F 1 "220u" H 4550 8575 40  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 4650 8525 30  0001 C CNN
+F 3 "~" H 4550 8675 300 0000 C CNN
+	1    4550 8675
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR0108
+U 1 1 5539953E
+P 14575 9875
+F 0 "#PWR0108" H 14575 9875 30  0001 C CNN
+F 1 "GND" H 14575 9805 30  0001 C CNN
+F 2 "" H 14575 9875 60  0000 C CNN
+F 3 "" H 14575 9875 60  0000 C CNN
+	1    14575 9875
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR091
+U 1 1 5539954E
+P 3650 8875
+F 0 "#PWR091" H 3650 8875 30  0001 C CNN
+F 1 "GND" H 3650 8805 30  0001 C CNN
+F 2 "" H 3650 8875 60  0000 C CNN
+F 3 "" H 3650 8875 60  0000 C CNN
+	1    3650 8875
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR092
+U 1 1 55399554
+P 4550 8875
+F 0 "#PWR092" H 4550 8875 30  0001 C CNN
+F 1 "GND" H 4550 8805 30  0001 C CNN
+F 2 "" H 4550 8875 60  0000 C CNN
+F 3 "" H 4550 8875 60  0000 C CNN
+	1    4550 8875
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR011
+U 1 1 553996B2
+P 7600 2250
+F 0 "#PWR011" H 7600 2250 30  0001 C CNN
+F 1 "GND" H 7600 2180 30  0001 C CNN
+F 2 "" H 7600 2250 60  0000 C CNN
+F 3 "" H 7600 2250 60  0000 C CNN
+	1    7600 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue C40
+U 1 1 5539985C
+P 4750 8675
+F 0 "C40" H 4750 8775 40  0000 L CNN
+F 1 "10u" H 4756 8590 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4788 8525 30  0001 C CNN
+F 3 "~" H 4750 8675 60  0000 C CNN
+	1    4750 8675
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR093
+U 1 1 55399862
+P 4750 8875
+F 0 "#PWR093" H 4750 8875 30  0001 C CNN
+F 1 "GND" H 4750 8805 30  0001 C CNN
+F 2 "" H 4750 8875 60  0000 C CNN
+F 3 "" H 4750 8875 60  0000 C CNN
+	1    4750 8875
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:3V3-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR074
+U 1 1 553998D0
+P 5150 8275
+F 0 "#PWR074" H 5150 8375 40  0001 C CNN
+F 1 "3V3" H 5150 8400 40  0000 C CNN
+F 2 "" H 5150 8275 60  0000 C CNN
+F 3 "" H 5150 8275 60  0000 C CNN
+	1    5150 8275
+	-1   0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue C41
+U 1 1 55399E5D
+P 4950 8675
+F 0 "C41" H 4950 8775 40  0000 L CNN
+F 1 "2.2u" H 4956 8590 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4988 8525 30  0001 C CNN
+F 3 "~" H 4950 8675 60  0000 C CNN
+	1    4950 8675
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR094
+U 1 1 55399E7E
+P 4950 8875
+F 0 "#PWR094" H 4950 8875 30  0001 C CNN
+F 1 "GND" H 4950 8805 30  0001 C CNN
+F 2 "" H 4950 8875 60  0000 C CNN
+F 3 "" H 4950 8875 60  0000 C CNN
+	1    4950 8875
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:CONN_10-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue P1
+U 1 1 5539AA48
+P 1675 7400
+F 0 "P1" H 1675 7975 60  0000 C CNN
+F 1 "MIL-10P_Angle" V 1675 7400 60  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Horizontal" H 1675 7400 60  0001 C CNN
+F 3 "" H 1675 7400 60  0000 C CNN
+	1    1675 7400
+	-1   0    0    -1  
+$EndComp
+Text Label 2425 6950 2    60   ~ 0
+SCL
+Text Label 2425 7150 2    60   ~ 0
+SDA
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue C30
+U 1 1 5539AE9B
+P 4675 7675
+F 0 "C30" H 4675 7775 40  0000 L CNN
+F 1 "2.2u" H 4681 7590 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4713 7525 30  0001 C CNN
+F 3 "~" H 4675 7675 60  0000 C CNN
+	1    4675 7675
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR076
+U 1 1 5539AEA1
+P 4675 7875
+F 0 "#PWR076" H 4675 7875 30  0001 C CNN
+F 1 "GND" H 4675 7805 30  0001 C CNN
+F 2 "" H 4675 7875 60  0000 C CNN
+F 3 "" H 4675 7875 60  0000 C CNN
+	1    4675 7875
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR072
+U 1 1 5539B03E
+P 2025 7850
+F 0 "#PWR072" H 2025 7850 30  0001 C CNN
+F 1 "GND" H 2025 7780 30  0001 C CNN
+F 2 "" H 2025 7850 60  0000 C CNN
+F 3 "" H 2025 7850 60  0000 C CNN
+	1    2025 7850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:I2CFLASH-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue IC2
+U 1 1 5539B417
+P 10350 8075
+F 0 "IC2" H 10350 8075 60  0000 C CNN
+F 1 "24AA256" H 10350 8375 60  0000 C CNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 10350 8075 60  0001 C CNN
+F 3 "" H 10350 8075 60  0000 C CNN
+	1    10350 8075
+	-1   0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue C31
+U 1 1 5539B42A
+P 9800 7725
+F 0 "C31" H 9800 7825 40  0000 L CNN
+F 1 "100n" H 9806 7640 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 9838 7575 30  0001 C CNN
+F 3 "~" H 9800 7725 60  0000 C CNN
+	1    9800 7725
+	-1   0    0    1   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR084
+U 1 1 5539B43A
+P 10900 8225
+F 0 "#PWR084" H 10900 8225 30  0001 C CNN
+F 1 "GND" H 10900 8155 30  0001 C CNN
+F 2 "" H 10900 8225 60  0000 C CNN
+F 3 "" H 10900 8225 60  0000 C CNN
+	1    10900 8225
+	0    -1   -1   0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR070
+U 1 1 5539B440
+P 9800 7525
+F 0 "#PWR070" H 9800 7525 30  0001 C CNN
+F 1 "GND" H 9800 7455 30  0001 C CNN
+F 2 "" H 9800 7525 60  0000 C CNN
+F 3 "" H 9800 7525 60  0000 C CNN
+	1    9800 7525
+	-1   0    0    1   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:3V3-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR077
+U 1 1 5539B446
+P 9800 7925
+F 0 "#PWR077" H 9800 8025 40  0001 C CNN
+F 1 "3V3" H 9800 8050 40  0000 C CNN
+F 2 "" H 9800 7925 60  0000 C CNN
+F 3 "" H 9800 7925 60  0000 C CNN
+	1    9800 7925
+	0    -1   1    0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR082
+U 1 1 5539B57E
+P 10900 8125
+F 0 "#PWR082" H 10900 8125 30  0001 C CNN
+F 1 "GND" H 10900 8055 30  0001 C CNN
+F 2 "" H 10900 8125 60  0000 C CNN
+F 3 "" H 10900 8125 60  0000 C CNN
+	1    10900 8125
+	0    -1   -1   0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR080
+U 1 1 5539B584
+P 10900 8025
+F 0 "#PWR080" H 10900 8025 30  0001 C CNN
+F 1 "GND" H 10900 7955 30  0001 C CNN
+F 2 "" H 10900 8025 60  0000 C CNN
+F 3 "" H 10900 8025 60  0000 C CNN
+	1    10900 8025
+	0    -1   -1   0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR078
+U 1 1 5539B58A
+P 10900 7925
+F 0 "#PWR078" H 10900 7925 30  0001 C CNN
+F 1 "GND" H 10900 7855 30  0001 C CNN
+F 2 "" H 10900 7925 60  0000 C CNN
+F 3 "" H 10900 7925 60  0000 C CNN
+	1    10900 7925
+	0    -1   -1   0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R54
+U 1 1 5539B590
+P 9025 7725
+F 0 "R54" V 9105 7725 40  0000 C CNN
+F 1 "2k2" V 9032 7726 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 8955 7725 30  0001 C CNN
+F 3 "~" H 9025 7725 30  0000 C CNN
+	1    9025 7725
+	1    0    0    1   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R53
+U 1 1 5539B596
+P 8875 7725
+F 0 "R53" V 8955 7725 40  0000 C CNN
+F 1 "2k2" V 8882 7726 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 8805 7725 30  0001 C CNN
+F 3 "~" H 8875 7725 30  0000 C CNN
+	1    8875 7725
+	1    0    0    1   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:3V3-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR067
+U 1 1 5539B693
+P 9025 7475
+F 0 "#PWR067" H 9025 7575 40  0001 C CNN
+F 1 "3V3" H 9025 7600 40  0000 C CNN
+F 2 "" H 9025 7475 60  0000 C CNN
+F 3 "" H 9025 7475 60  0000 C CNN
+	1    9025 7475
+	-1   0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:3V3-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR066
+U 1 1 5539B699
+P 8875 7475
+F 0 "#PWR066" H 8875 7575 40  0001 C CNN
+F 1 "3V3" H 8875 7600 40  0000 C CNN
+F 2 "" H 8875 7475 60  0000 C CNN
+F 3 "" H 8875 7475 60  0000 C CNN
+	1    8875 7475
+	-1   0    0    -1  
+$EndComp
+Text Label 8075 9975 0    60   ~ 0
+SDA
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue C42
+U 1 1 55460807
+P 5150 8675
+F 0 "C42" H 5150 8775 40  0000 L CNN
+F 1 "100n" H 5156 8590 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5188 8525 30  0001 C CNN
+F 3 "~" H 5150 8675 60  0000 C CNN
+	1    5150 8675
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR095
+U 1 1 5546080D
+P 5150 8875
+F 0 "#PWR095" H 5150 8875 30  0001 C CNN
+F 1 "GND" H 5150 8805 30  0001 C CNN
+F 2 "" H 5150 8875 60  0000 C CNN
+F 3 "" H 5150 8875 60  0000 C CNN
+	1    5150 8875
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:3V3-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR08
+U 1 1 55F326B0
+P 8500 2150
+F 0 "#PWR08" H 8500 2250 40  0001 C CNN
+F 1 "3V3" V 8500 2300 40  0000 C CNN
+F 2 "" H 8500 2150 60  0000 C CNN
+F 3 "" H 8500 2150 60  0000 C CNN
+	1    8500 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:3V3-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR07
+U 1 1 55F334AD
+P 7650 2150
+F 0 "#PWR07" H 7650 2250 40  0001 C CNN
+F 1 "3V3" V 7650 2300 40  0000 C CNN
+F 2 "" H 7650 2150 60  0000 C CNN
+F 3 "" H 7650 2150 60  0000 C CNN
+	1    7650 2150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR021
+U 1 1 55F349F8
+P 2100 3075
+F 0 "#PWR021" H 2100 3075 30  0001 C CNN
+F 1 "GND" H 2100 3005 30  0001 C CNN
+F 2 "" H 2100 3075 60  0000 C CNN
+F 3 "" H 2100 3075 60  0000 C CNN
+	1    2100 3075
+	1    0    0    -1  
+$EndComp
+Text Label 8675 7050 2    60   ~ 0
+MCLK
+Text Notes 4950 6150 2    39   ~ 0
+<=1%
+Text Label 2025 7450 0    60   ~ 0
+BRD_~RESET
+$Comp
+L power:VSS #PWR096
+U 1 1 5665189C
+P 5450 8875
+F 0 "#PWR096" H 5450 8725 50  0001 C CNN
+F 1 "VSS" H 5450 9025 50  0000 C CNN
+F 2 "" H 5450 8875 50  0000 C CNN
+F 3 "" H 5450 8875 50  0000 C CNN
+	1    5450 8875
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR097
+U 1 1 566519AD
+P 5450 8875
+F 0 "#PWR097" H 5450 8875 30  0001 C CNN
+F 1 "GND" H 5450 8805 30  0001 C CNN
+F 2 "" H 5450 8875 60  0000 C CNN
+F 3 "" H 5450 8875 60  0000 C CNN
+	1    5450 8875
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR081
+U 1 1 56651A64
+P 5450 8475
+F 0 "#PWR081" H 5450 8325 50  0001 C CNN
+F 1 "VDD" H 5450 8625 50  0000 C CNN
+F 2 "" H 5450 8475 50  0000 C CNN
+F 3 "" H 5450 8475 50  0000 C CNN
+	1    5450 8475
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue C37
+U 1 1 566993B6
+P 3400 8675
+F 0 "C37" H 3400 8775 40  0000 L CNN
+F 1 "100n" H 3225 8600 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3438 8525 30  0001 C CNN
+F 3 "~" H 3400 8675 60  0000 C CNN
+	1    3400 8675
+	-1   0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR090
+U 1 1 566994EC
+P 3400 8875
+F 0 "#PWR090" H 3400 8875 30  0001 C CNN
+F 1 "GND" H 3400 8805 30  0001 C CNN
+F 2 "" H 3400 8875 60  0000 C CNN
+F 3 "" H 3400 8875 60  0000 C CNN
+	1    3400 8875
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR073
+U 1 1 566995A9
+P 3400 8275
+F 0 "#PWR073" H 3400 8125 50  0001 C CNN
+F 1 "+5V" H 3400 8415 50  0000 C CNN
+F 2 "" H 3400 8275 60  0000 C CNN
+F 3 "" H 3400 8275 60  0000 C CNN
+	1    3400 8275
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue C36
+U 1 1 566A1D67
+P 2600 8675
+F 0 "C36" H 2600 8775 40  0000 L CNN
+F 1 "10u" H 2606 8590 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2638 8525 30  0001 C CNN
+F 3 "~" H 2600 8675 60  0000 C CNN
+	1    2600 8675
+	-1   0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR089
+U 1 1 566A1D6D
+P 2600 8875
+F 0 "#PWR089" H 2600 8875 30  0001 C CNN
+F 1 "GND" H 2600 8805 30  0001 C CNN
+F 2 "" H 2600 8875 60  0000 C CNN
+F 3 "" H 2600 8875 60  0000 C CNN
+	1    2600 8875
+	1    0    0    -1  
+$EndComp
+Text GLabel 8600 1950 2    47   Input ~ 0
+_RESET
+Text GLabel 8700 2450 2    47   Input ~ 0
+MP5
+Text GLabel 4400 2450 0    47   Input ~ 0
+MP11
+Text GLabel 7275 1850 0    47   Input ~ 0
+SCL
+Text GLabel 4350 2350 0    47   Input ~ 0
+MP8
+Text GLabel 4400 2650 0    47   Input ~ 0
+MCLK
+Text GLabel 2600 2400 2    47   Input ~ 0
+MP2
+Text GLabel 2600 2250 2    47   Input ~ 0
+MP3
+Text GLabel 8000 6850 2    47   Output ~ 0
+MP9
+Text GLabel 7275 1750 0    47   Input ~ 0
+SDA
+Text GLabel 4400 2550 0    47   Input ~ 0
+MP10
+Text GLabel 4350 2250 0    47   Input ~ 0
+MP7
+Text GLabel 8700 2350 2    47   Input ~ 0
+MP1
+Text GLabel 8700 2550 2    47   Input ~ 0
+MP4
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:3V3-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR044
+U 1 1 56F69AFD
+P 8625 5475
+F 0 "#PWR044" H 8625 5575 40  0001 C CNN
+F 1 "3V3" H 8625 5600 40  0000 C CNN
+F 2 "" H 8625 5475 60  0000 C CNN
+F 3 "" H 8625 5475 60  0000 C CNN
+	1    8625 5475
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R55
+U 1 1 573ADFB1
+P 9500 7725
+F 0 "R55" V 9580 7725 40  0000 C CNN
+F 1 "10k" V 9507 7726 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 9430 7725 30  0001 C CNN
+F 3 "~" H 9500 7725 30  0000 C CNN
+	1    9500 7725
+	1    0    0    1   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:3V3-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR068
+U 1 1 573AE413
+P 9500 7475
+F 0 "#PWR068" H 9500 7575 40  0001 C CNN
+F 1 "3V3" H 9500 7600 40  0000 C CNN
+F 2 "" H 9500 7475 60  0000 C CNN
+F 3 "" H 9500 7475 60  0000 C CNN
+	1    9500 7475
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 6050 5525 6050
+Wire Wire Line
+	6975 8575 6975 8275
+Wire Wire Line
+	6675 8575 6975 8575
+Connection ~ 6975 8575
+Wire Wire Line
+	6475 8275 6475 7500
+Wire Wire Line
+	6075 8575 6275 8575
+Wire Wire Line
+	6075 7500 6075 8175
+Connection ~ 6075 8575
+Wire Wire Line
+	6075 8175 7175 8175
+Wire Wire Line
+	7175 8175 7175 7500
+Connection ~ 6075 8175
+Wire Wire Line
+	7725 5950 8125 5950
+Wire Wire Line
+	6775 4650 6775 5300
+Connection ~ 8125 5950
+Wire Wire Line
+	13525 3800 13550 3800
+Wire Wire Line
+	5025 5950 3525 5950
+Wire Wire Line
+	3975 6150 5025 6150
+Wire Wire Line
+	14900 8000 14900 7900
+Wire Wire Line
+	14450 7900 14525 7900
+Wire Wire Line
+	14925 3900 14925 3800
+Wire Wire Line
+	14500 3800 14575 3800
+Connection ~ 14725 3800
+Wire Wire Line
+	14875 1975 14875 1875
+Wire Wire Line
+	14500 1875 14525 1875
+Connection ~ 14675 1875
+Connection ~ 14900 7900
+Connection ~ 14875 1875
+Connection ~ 14925 3800
+Connection ~ 4750 8475
+Connection ~ 4550 8475
+Connection ~ 3650 8475
+Connection ~ 4950 8475
+Wire Wire Line
+	3400 8475 3650 8475
+Connection ~ 9800 7925
+Wire Wire Line
+	8875 8225 8875 7975
+Wire Wire Line
+	5150 8475 5150 8275
+Connection ~ 5150 8475
+Wire Wire Line
+	8825 6350 8825 6400
+Wire Wire Line
+	9425 6150 9425 6350
+Wire Wire Line
+	7725 6250 8275 6250
+Wire Wire Line
+	9425 6150 8275 6150
+Connection ~ 9425 6350
+Connection ~ 8825 6350
+Wire Wire Line
+	3400 8275 3400 8475
+Connection ~ 3400 8475
+Connection ~ 2600 8475
+Wire Wire Line
+	9800 8025 9500 8025
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:JUMPER-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue JP1
+U 1 1 575AD9D5
+P 8100 2975
+F 0 "JP1" H 8100 3125 50  0000 C CNN
+F 1 "LRCLK_BRIDGE" H 8100 2895 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 8100 2975 60  0001 C CNN
+F 3 "" H 8100 2975 60  0000 C CNN
+	1    8100 2975
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:JUMPER-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue JP2
+U 1 1 575ADB7C
+P 8100 3300
+F 0 "JP2" H 8100 3450 50  0000 C CNN
+F 1 "BCK_BRIDGE" H 8100 3220 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 8100 3300 60  0001 C CNN
+F 3 "" H 8100 3300 60  0000 C CNN
+	1    8100 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:JUMPER-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue JP4
+U 1 1 59DD976C
+P 9500 8575
+F 0 "JP4" H 9500 8725 50  0000 C CNN
+F 1 "WE_BRIDGE" H 9500 8495 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 9500 8575 60  0001 C CNN
+F 3 "" H 9500 8575 60  0000 C CNN
+	1    9500 8575
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9500 8025 9500 8275
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR0103
+U 1 1 59DDC992
+P 9500 8875
+F 0 "#PWR0103" H 9500 8875 30  0001 C CNN
+F 1 "GND" H 9500 8805 30  0001 C CNN
+F 2 "" H 9500 8875 60  0000 C CNN
+F 3 "" H 9500 8875 60  0000 C CNN
+	1    9500 8875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6075 8175 6075 8575
+Wire Wire Line
+	13550 7900 13550 7100
+Wire Wire Line
+	14900 7900 15025 7900
+Wire Wire Line
+	14875 1875 15075 1875
+Wire Wire Line
+	14925 3800 15050 3800
+Wire Wire Line
+	4750 8475 4950 8475
+Wire Wire Line
+	4550 8475 4750 8475
+Wire Wire Line
+	4950 8475 5150 8475
+Wire Wire Line
+	5150 8475 5450 8475
+Wire Wire Line
+	9425 6350 9425 6400
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:LME49720-SamacSys_Parts-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue U5
+U 1 1 5C45A1CF
+P 13175 5850
+F 0 "U5" H 13175 6215 50  0000 C CNN
+F 1 "LME49720" H 13175 6124 50  0000 C CNN
+F 2 "Myfootprints:SOIC127P600X175-8N" H 13075 5900 50  0001 C CNN
+F 3 "" H 13175 6000 50  0000 C CNN
+	1    13175 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:LME49720-SamacSys_Parts-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue U5
+U 2 1 5C45A4C8
+P 13200 7900
+F 0 "U5" H 13200 7628 50  0000 C CNN
+F 1 "LME49720" H 13200 7537 50  0000 C CNN
+F 2 "Myfootprints:SOIC127P600X175-8N" H 13100 7950 50  0001 C CNN
+F 3 "" H 13200 8050 50  0000 C CNN
+	2    13200 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:LME49720-SamacSys_Parts-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue U3
+U 1 1 5C47F427
+P 2525 4525
+F 0 "U3" H 2525 4890 50  0000 C CNN
+F 1 "LME49720" H 2525 4799 50  0000 C CNN
+F 2 "Myfootprints:SOIC127P600X175-8N" H 2425 4575 50  0001 C CNN
+F 3 "" H 2525 4675 50  0000 C CNN
+	1    2525 4525
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:LME49720-SamacSys_Parts-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue U1
+U 2 1 5C483AD2
+P 13225 3800
+F 0 "U1" H 13225 3528 50  0000 C CNN
+F 1 "LME49720" H 13225 3437 50  0000 C CNN
+F 2 "Myfootprints:SOIC127P600X175-8N" H 13125 3850 50  0001 C CNN
+F 3 "" H 13225 3950 50  0000 C CNN
+	2    13225 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13500 1875 13575 1875
+Wire Wire Line
+	12850 1575 12800 1575
+Wire Wire Line
+	13500 7900 13550 7900
+Wire Wire Line
+	6175 4950 6175 5300
+Wire Wire Line
+	13075 6150 13075 6200
+Wire Wire Line
+	13100 7475 13100 7525
+Wire Wire Line
+	13125 3450 13125 3475
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR049
+U 1 1 5C52A235
+P 2425 4825
+F 0 "#PWR049" H 2425 4825 30  0001 C CNN
+F 1 "GND" H 2425 4755 30  0001 C CNN
+F 2 "" H 2425 4825 60  0000 C CNN
+F 3 "" H 2425 4825 60  0000 C CNN
+	1    2425 4825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8275 6150 8275 6250
+$Comp
+L power:+12V #PWR075
+U 1 1 5C5892DC
+P 2600 8300
+F 0 "#PWR075" H 2600 8150 50  0001 C CNN
+F 1 "+12V" H 2600 8440 50  0000 C CNN
+F 2 "" H 2600 8300 60  0000 C CNN
+F 3 "" H 2600 8300 60  0000 C CNN
+	1    2600 8300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 8300 2600 8475
+Wire Wire Line
+	4675 7425 4675 7450
+Wire Wire Line
+	4675 7475 4675 7450
+Connection ~ 4675 7450
+Text Notes 3150 6850 0    50   ~ 10
+RESET SW
+Wire Wire Line
+	4675 7450 4850 7450
+Wire Wire Line
+	4850 7450 4850 6250
+Wire Wire Line
+	4850 6250 5525 6250
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:I2CFLASH-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue IC3
+U 1 1 5C654FDE
+P 10350 9825
+F 0 "IC3" H 10350 9825 60  0000 C CNN
+F 1 "24AA256" H 10350 10125 60  0000 C CNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 10350 9825 60  0001 C CNN
+F 3 "" H 10350 9825 60  0000 C CNN
+	1    10350 9825
+	-1   0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue C45
+U 1 1 5C654FE4
+P 9800 9475
+F 0 "C45" H 9800 9575 40  0000 L CNN
+F 1 "100n" H 9806 9390 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 9838 9325 30  0001 C CNN
+F 3 "~" H 9800 9475 60  0000 C CNN
+	1    9800 9475
+	-1   0    0    1   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR0120
+U 1 1 5C654FEA
+P 10900 9975
+F 0 "#PWR0120" H 10900 9975 30  0001 C CNN
+F 1 "GND" H 10900 9905 30  0001 C CNN
+F 2 "" H 10900 9975 60  0000 C CNN
+F 3 "" H 10900 9975 60  0000 C CNN
+	1    10900 9975
+	0    -1   -1   0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR0112
+U 1 1 5C654FF0
+P 9800 9275
+F 0 "#PWR0112" H 9800 9275 30  0001 C CNN
+F 1 "GND" H 9800 9205 30  0001 C CNN
+F 2 "" H 9800 9275 60  0000 C CNN
+F 3 "" H 9800 9275 60  0000 C CNN
+	1    9800 9275
+	-1   0    0    1   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:3V3-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR0115
+U 1 1 5C654FF6
+P 9800 9675
+F 0 "#PWR0115" H 9800 9775 40  0001 C CNN
+F 1 "3V3" H 9800 9800 40  0000 C CNN
+F 2 "" H 9800 9675 60  0000 C CNN
+F 3 "" H 9800 9675 60  0000 C CNN
+	1    9800 9675
+	0    -1   1    0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR0119
+U 1 1 5C654FFC
+P 10900 9875
+F 0 "#PWR0119" H 10900 9875 30  0001 C CNN
+F 1 "GND" H 10900 9805 30  0001 C CNN
+F 2 "" H 10900 9875 60  0000 C CNN
+F 3 "" H 10900 9875 60  0000 C CNN
+	1    10900 9875
+	0    -1   -1   0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR0118
+U 1 1 5C655002
+P 10900 9775
+F 0 "#PWR0118" H 10900 9775 30  0001 C CNN
+F 1 "GND" H 10900 9705 30  0001 C CNN
+F 2 "" H 10900 9775 60  0000 C CNN
+F 3 "" H 10900 9775 60  0000 C CNN
+	1    10900 9775
+	0    -1   -1   0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR0116
+U 1 1 5C655008
+P 10900 9675
+F 0 "#PWR0116" H 10900 9675 30  0001 C CNN
+F 1 "GND" H 10900 9605 30  0001 C CNN
+F 2 "" H 10900 9675 60  0000 C CNN
+F 3 "" H 10900 9675 60  0000 C CNN
+	1    10900 9675
+	0    -1   -1   0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R71
+U 1 1 5C655014
+P 9200 9525
+F 0 "R71" V 9280 9525 40  0000 C CNN
+F 1 "2k2" V 9207 9526 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 9130 9525 30  0001 C CNN
+F 3 "~" H 9200 9525 30  0000 C CNN
+	1    9200 9525
+	1    0    0    1   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:3V3-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR0110
+U 1 1 5C655020
+P 9200 9275
+F 0 "#PWR0110" H 9200 9375 40  0001 C CNN
+F 1 "3V3" H 9200 9400 40  0000 C CNN
+F 2 "" H 9200 9275 60  0000 C CNN
+F 3 "" H 9200 9275 60  0000 C CNN
+	1    9200 9275
+	-1   0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R72
+U 1 1 5C655029
+P 9500 9525
+F 0 "R72" V 9580 9525 40  0000 C CNN
+F 1 "10k" V 9507 9526 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 9430 9525 30  0001 C CNN
+F 3 "~" H 9500 9525 30  0000 C CNN
+	1    9500 9525
+	1    0    0    1   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:3V3-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR0111
+U 1 1 5C65502F
+P 9500 9275
+F 0 "#PWR0111" H 9500 9375 40  0001 C CNN
+F 1 "3V3" H 9500 9400 40  0000 C CNN
+F 2 "" H 9500 9275 60  0000 C CNN
+F 3 "" H 9500 9275 60  0000 C CNN
+	1    9500 9275
+	-1   0    0    -1  
+$EndComp
+Connection ~ 9800 9675
+Wire Wire Line
+	9800 9975 9200 9975
+Wire Wire Line
+	9200 9975 9200 9775
+Wire Wire Line
+	9800 9775 9500 9775
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:JUMPER-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue JP5
+U 1 1 5C65503B
+P 9500 10325
+F 0 "JP5" H 9500 10475 50  0000 C CNN
+F 1 "WE_BRIDGE" H 9500 10245 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 9500 10325 60  0001 C CNN
+F 3 "" H 9500 10325 60  0000 C CNN
+	1    9500 10325
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9500 9775 9500 10025
+Connection ~ 9500 9775
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR0125
+U 1 1 5C655043
+P 9500 10625
+F 0 "#PWR0125" H 9500 10625 30  0001 C CNN
+F 1 "GND" H 9500 10555 30  0001 C CNN
+F 2 "" H 9500 10625 60  0000 C CNN
+F 3 "" H 9500 10625 60  0000 C CNN
+	1    9500 10625
+	1    0    0    -1  
+$EndComp
+Connection ~ 9200 9975
+Wire Wire Line
+	9025 9875 9025 8125
+Wire Wire Line
+	8875 8225 8875 9775
+Wire Wire Line
+	7600 2250 7825 2250
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:Conn_02x10_Odd_Even-conn-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue J3
+U 1 1 5C7E7ADD
+P 8025 2150
+F 0 "J3" H 8075 2767 50  0000 C CNN
+F 1 "Conn_02x10_Odd_Even" H 8075 2676 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x10_P2.54mm_Vertical" H 8025 2150 50  0001 C CNN
+F 3 "~" H 8025 2150 50  0001 C CNN
+	1    8025 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 1950 8325 1950
+Text Notes 6750 2050 0    50   ~ 0
+DAC DATA0
+Text Notes 6750 2150 0    50   ~ 0
+DAC MUTE_n
+Text Notes 6750 1875 0    50   ~ 0
+I2C SCL
+Text Notes 6750 1775 0    50   ~ 0
+I2C SDA
+Text Notes 8975 1975 0    50   ~ 0
+RESET_n
+Text Notes 6750 2250 0    50   ~ 0
+DAC DATA1
+Text Notes 6625 3475 0    50   ~ 0
+EXT-MCLK IN
+Text Notes 9000 2575 0    50   ~ 0
+ADC LRCK
+Text Notes 9000 2475 0    50   ~ 0
+ADC BCLK
+Text Notes 9000 2375 0    50   ~ 0
+ADC DATA
+Wire Wire Line
+	8325 2150 8500 2150
+Wire Wire Line
+	7825 2150 7650 2150
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR03
+U 1 1 5C8A98DA
+P 8550 1750
+F 0 "#PWR03" H 8550 1750 30  0001 C CNN
+F 1 "GND" H 8550 1680 30  0001 C CNN
+F 2 "" H 8550 1750 60  0000 C CNN
+F 3 "" H 8550 1750 60  0000 C CNN
+	1    8550 1750
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	8550 1750 8325 1750
+Wire Wire Line
+	8700 2350 8325 2350
+Wire Wire Line
+	8325 2450 8500 2450
+Wire Wire Line
+	8700 2550 8400 2550
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R47
+U 1 1 5C8F3214
+P 9725 6150
+F 0 "R47" V 9805 6150 40  0000 C CNN
+F 1 "NOPOP" V 9732 6151 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 9655 6150 30  0001 C CNN
+F 3 "~" H 9725 6150 30  0000 C CNN
+	1    9725 6150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9475 6150 9425 6150
+Connection ~ 9425 6150
+Wire Wire Line
+	9975 6150 10375 6150
+Text Label 10375 6150 2    50   ~ 0
+MCLKI
+Wire Wire Line
+	8650 2650 8325 2650
+Text Notes 7550 1425 0    50   ~ 10
+I2S I/O EXPANSION CONNECTOR
+Wire Notes Line
+	7525 1450 8800 1450
+Wire Notes Line
+	8800 1450 8800 1325
+$Comp
+L Device:R_POT_Dual_Separate RV2
+U 2 1 5C978F99
+P 1300 2850
+F 0 "RV2" H 1232 2804 50  0000 R CNN
+F 1 "R_POT_ALPS_RK09_B10K" H 1725 3225 50  0000 R CNN
+F 2 "Potentiometers:Potentiometer_Alps_RK09L_Double_Vertical" H 1300 2850 50  0001 C CNN
+F 3 "~" H 1300 2850 50  0001 C CNN
+	2    1300 2850
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R_POT_Dual_Separate RV1
+U 2 1 5C981E15
+P 2100 2825
+F 0 "RV1" H 2032 2779 50  0000 R CNN
+F 1 "R_POT_ALPS_RK09_B10K" H 2800 3225 50  0000 R CNN
+F 2 "Potentiometers:Potentiometer_Alps_RK09L_Double_Vertical" H 2100 2825 50  0001 C CNN
+F 3 "~" H 2100 2825 50  0001 C CNN
+	2    2100 2825
+	1    0    0    1   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR022
+U 1 1 5C9DA7A0
+P 1300 3100
+F 0 "#PWR022" H 1300 3100 30  0001 C CNN
+F 1 "GND" H 1300 3030 30  0001 C CNN
+F 2 "" H 1300 3100 60  0000 C CNN
+F 3 "" H 1300 3100 60  0000 C CNN
+	1    1300 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 3100 1300 3000
+Wire Wire Line
+	2100 3075 2100 2975
+Wire Wire Line
+	2250 2825 2350 2825
+Wire Wire Line
+	2350 2825 2350 2400
+Wire Wire Line
+	2350 2400 2600 2400
+Wire Wire Line
+	1450 2850 1525 2850
+Wire Wire Line
+	1525 2850 1525 2250
+Wire Wire Line
+	1525 2250 2600 2250
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R61
+U 1 1 5CAFA8BD
+P 7450 8350
+F 0 "R61" V 7530 8350 40  0000 C CNN
+F 1 "10k" V 7457 8351 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 7380 8350 30  0001 C CNN
+F 3 "~" H 7450 8350 30  0000 C CNN
+	1    7450 8350
+	1    0    0    1   
+$EndComp
+Text Notes 1725 2625 0    50   ~ 10
+POT-1
+Text Notes 925  2650 0    50   ~ 10
+POT-2
+Wire Notes Line
+	1700 2650 2000 2650
+Wire Notes Line
+	2000 2525 1700 2525
+Wire Notes Line
+	1700 2650 1700 2525
+Wire Notes Line
+	2000 2650 2000 2525
+Wire Notes Line
+	900  2675 1200 2675
+Wire Notes Line
+	1200 2550 900  2550
+Wire Notes Line
+	900  2675 900  2550
+Wire Notes Line
+	1200 2675 1200 2550
+Text Notes 10175 7550 0    50   ~ 10
+ROM-A
+Wire Notes Line
+	10175 7575 10475 7575
+Wire Notes Line
+	10475 7450 10175 7450
+Wire Notes Line
+	10175 7575 10175 7450
+Wire Notes Line
+	10475 7575 10475 7450
+Text Notes 10200 9300 0    50   ~ 10
+ROM-B
+Wire Notes Line
+	10200 9325 10500 9325
+Wire Notes Line
+	10500 9200 10200 9200
+Wire Notes Line
+	10200 9325 10200 9200
+Wire Notes Line
+	10500 9325 10500 9200
+Text Notes 1075 7475 0    50   ~ 10
+USBi
+Wire Notes Line
+	1025 7500 1325 7500
+Wire Notes Line
+	1325 7375 1025 7375
+Wire Notes Line
+	1025 7500 1025 7375
+Wire Notes Line
+	1325 7500 1325 7375
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:Conn_Coaxial_Power-conn-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue J9
+U 1 1 5C584B0E
+P 1475 9225
+F 0 "J9" H 1600 9175 50  0000 C CNN
+F 1 "Conn_Power_2.1mm" H 1950 9100 50  0000 C CNN
+F 2 "Connect:BARREL_JACK" H 1475 9175 50  0001 C CNN
+F 3 "~" H 1475 9175 50  0001 C CNN
+	1    1475 9225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1475 9500 1475 9425
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR088
+U 1 1 5C5E2933
+P 1475 9500
+F 0 "#PWR088" H 1475 9500 30  0001 C CNN
+F 1 "GND" H 1475 9430 30  0001 C CNN
+F 2 "" H 1475 9500 60  0000 C CNN
+F 3 "" H 1475 9500 60  0000 C CNN
+	1    1475 9500
+	1    0    0    -1  
+$EndComp
+Text Notes 1050 9300 0    50   ~ 10
+DC12V
+Wire Notes Line
+	1025 9325 1325 9325
+Wire Notes Line
+	1325 9200 1025 9200
+Wire Notes Line
+	1025 9325 1025 9200
+Wire Notes Line
+	1325 9325 1325 9200
+Text Notes 12400 1000 0    50   ~ 0
+fc = 60kHz (-3dB)
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue C1
+U 1 1 5C651876
+P 12850 1375
+F 0 "C1" H 12850 1475 40  0000 L CNN
+F 1 "150p" H 12856 1290 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 12888 1225 30  0001 C CNN
+F 3 "~" H 12850 1375 60  0000 C CNN
+	1    12850 1375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12300 1575 12125 1575
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R1
+U 1 1 5C7411B8
+P 12125 1325
+F 0 "R1" V 12205 1325 40  0000 C CNN
+F 1 "22k" V 12132 1326 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 12055 1325 30  0001 C CNN
+F 3 "~" H 12125 1325 30  0000 C CNN
+	1    12125 1325
+	1    0    0    -1  
+$EndComp
+Connection ~ 12125 1575
+Wire Wire Line
+	12300 1975 12125 1975
+Wire Wire Line
+	12775 2175 12800 2175
+Wire Wire Line
+	12300 2175 12375 2175
+Wire Wire Line
+	12300 2175 12300 2225
+Wire Wire Line
+	12800 1975 12800 2175
+Wire Wire Line
+	12900 1975 12800 1975
+Connection ~ 12800 1975
+Wire Wire Line
+	12850 1575 12850 1775
+Wire Wire Line
+	12850 1775 12900 1775
+Connection ~ 12850 1575
+Wire Wire Line
+	12125 1075 12850 1075
+Wire Wire Line
+	13575 1075 13575 1875
+Wire Wire Line
+	12850 1175 12850 1075
+Connection ~ 12850 1075
+Wire Wire Line
+	12850 1075 13575 1075
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R6
+U 1 1 5C875340
+P 11875 1975
+F 0 "R6" V 11955 1975 40  0000 C CNN
+F 1 "10k" V 11882 1976 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 11805 1975 30  0001 C CNN
+F 3 "~" H 11875 1975 30  0000 C CNN
+	1    11875 1975
+	0    -1   -1   0   
+$EndComp
+Connection ~ 12125 1975
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R2
+U 1 1 5C896C94
+P 11875 1575
+F 0 "R2" V 11955 1575 40  0000 C CNN
+F 1 "10k" V 11882 1576 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 11805 1575 30  0001 C CNN
+F 3 "~" H 11875 1575 30  0000 C CNN
+	1    11875 1575
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11625 1575 11325 1575
+Wire Wire Line
+	11625 1975 11575 1975
+$Comp
+L power:+5VA #PWR09
+U 1 1 5C91C225
+P 11575 2150
+F 0 "#PWR09" H 11575 2000 50  0001 C CNN
+F 1 "+5VA" V 11590 2277 50  0000 L CNN
+F 2 "" H 11575 2150 50  0001 C CNN
+F 3 "" H 11575 2150 50  0001 C CNN
+	1    11575 2150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue C8
+U 1 1 5C97B5A5
+P 12150 3700
+F 0 "C8" H 12150 3800 40  0000 L CNN
+F 1 "1000PF" H 12156 3615 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 12188 3550 30  0001 C CNN
+F 3 "~" H 12150 3700 60  0000 C CNN
+	1    12150 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R24
+U 1 1 5C97B5AC
+P 12575 3900
+F 0 "R24" V 12655 3900 40  0000 C CNN
+F 1 "1k" V 12582 3901 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 12505 3900 30  0001 C CNN
+F 3 "~" H 12575 3900 30  0000 C CNN
+	1    12575 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue C10
+U 1 1 5C97B5B3
+P 12600 4100
+F 0 "C10" V 12550 3900 40  0000 L CNN
+F 1 "150p" V 12650 3900 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 12638 3950 30  0001 C CNN
+F 3 "~" H 12600 4100 60  0000 C CNN
+	1    12600 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R21
+U 1 1 5C97B5BA
+P 12575 3500
+F 0 "R21" V 12655 3500 40  0000 C CNN
+F 1 "1k" V 12582 3501 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 12505 3500 30  0001 C CNN
+F 3 "~" H 12575 3500 30  0000 C CNN
+	1    12575 3500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12875 3500 12825 3500
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue C7
+U 1 1 5C97B5C9
+P 12875 3300
+F 0 "C7" H 12875 3400 40  0000 L CNN
+F 1 "150p" H 12881 3215 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 12913 3150 30  0001 C CNN
+F 3 "~" H 12875 3300 60  0000 C CNN
+	1    12875 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12325 3500 12150 3500
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R18
+U 1 1 5C97B5D1
+P 12150 3250
+F 0 "R18" V 12230 3250 40  0000 C CNN
+F 1 "22k" V 12157 3251 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 12080 3250 30  0001 C CNN
+F 3 "~" H 12150 3250 30  0000 C CNN
+	1    12150 3250
+	1    0    0    -1  
+$EndComp
+Connection ~ 12150 3500
+Wire Wire Line
+	12325 3900 12150 3900
+Wire Wire Line
+	12800 4100 12825 4100
+Wire Wire Line
+	12325 4100 12400 4100
+Wire Wire Line
+	12325 4100 12325 4150
+Wire Wire Line
+	12825 3900 12825 4100
+Wire Wire Line
+	12925 3900 12825 3900
+Connection ~ 12825 3900
+Wire Wire Line
+	12875 3500 12875 3700
+Wire Wire Line
+	12875 3700 12925 3700
+Connection ~ 12875 3500
+Wire Wire Line
+	12150 3000 12875 3000
+Wire Wire Line
+	12875 3100 12875 3000
+Connection ~ 12875 3000
+Wire Wire Line
+	12875 3000 13550 3000
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R23
+U 1 1 5C97B5E7
+P 11900 3900
+F 0 "R23" V 11980 3900 40  0000 C CNN
+F 1 "10k" V 11907 3901 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 11830 3900 30  0001 C CNN
+F 3 "~" H 11900 3900 30  0000 C CNN
+	1    11900 3900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 12150 3900
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R20
+U 1 1 5C97B5EF
+P 11900 3500
+F 0 "R20" V 11980 3500 40  0000 C CNN
+F 1 "10k" V 11907 3501 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 11830 3500 30  0001 C CNN
+F 3 "~" H 11900 3500 30  0000 C CNN
+	1    11900 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11650 3500 11350 3500
+Wire Wire Line
+	11650 3900 11600 3900
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue C21
+U 1 1 5C984741
+P 12100 5750
+F 0 "C21" H 12100 5850 40  0000 L CNN
+F 1 "1000PF" H 12106 5665 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 12138 5600 30  0001 C CNN
+F 3 "~" H 12100 5750 60  0000 C CNN
+	1    12100 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R39
+U 1 1 5C984748
+P 12525 5950
+F 0 "R39" V 12605 5950 40  0000 C CNN
+F 1 "1k" V 12532 5951 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 12455 5950 30  0001 C CNN
+F 3 "~" H 12525 5950 30  0000 C CNN
+	1    12525 5950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue C25
+U 1 1 5C98474F
+P 12550 6150
+F 0 "C25" V 12500 5950 40  0000 L CNN
+F 1 "150p" V 12600 5950 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 12588 6000 30  0001 C CNN
+F 3 "~" H 12550 6150 60  0000 C CNN
+	1    12550 6150
+	0    1    1    0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R33
+U 1 1 5C984756
+P 12525 5550
+F 0 "R33" V 12605 5550 40  0000 C CNN
+F 1 "1k" V 12532 5551 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 12455 5550 30  0001 C CNN
+F 3 "~" H 12525 5550 30  0000 C CNN
+	1    12525 5550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12825 5550 12775 5550
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue C18
+U 1 1 5C984765
+P 12825 5350
+F 0 "C18" H 12825 5450 40  0000 L CNN
+F 1 "150p" H 12831 5265 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 12863 5200 30  0001 C CNN
+F 3 "~" H 12825 5350 60  0000 C CNN
+	1    12825 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12275 5550 12100 5550
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R31
+U 1 1 5C98476D
+P 12100 5300
+F 0 "R31" V 12180 5300 40  0000 C CNN
+F 1 "22k" V 12107 5301 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 12030 5300 30  0001 C CNN
+F 3 "~" H 12100 5300 30  0000 C CNN
+	1    12100 5300
+	1    0    0    -1  
+$EndComp
+Connection ~ 12100 5550
+Wire Wire Line
+	12275 5950 12100 5950
+Wire Wire Line
+	12750 6150 12775 6150
+Wire Wire Line
+	12275 6150 12350 6150
+Wire Wire Line
+	12275 6150 12275 6200
+Wire Wire Line
+	12775 5950 12775 6150
+Wire Wire Line
+	12875 5950 12775 5950
+Connection ~ 12775 5950
+Wire Wire Line
+	12825 5550 12825 5750
+Wire Wire Line
+	12825 5750 12875 5750
+Connection ~ 12825 5550
+Wire Wire Line
+	12100 5050 12825 5050
+Wire Wire Line
+	12825 5150 12825 5050
+Connection ~ 12825 5050
+Wire Wire Line
+	12825 5050 13550 5050
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R38
+U 1 1 5C984783
+P 11850 5950
+F 0 "R38" V 11930 5950 40  0000 C CNN
+F 1 "10k" V 11857 5951 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 11780 5950 30  0001 C CNN
+F 3 "~" H 11850 5950 30  0000 C CNN
+	1    11850 5950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 12100 5950
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R32
+U 1 1 5C98478B
+P 11850 5550
+F 0 "R32" V 11930 5550 40  0000 C CNN
+F 1 "10k" V 11857 5551 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 11780 5550 30  0001 C CNN
+F 3 "~" H 11850 5550 30  0000 C CNN
+	1    11850 5550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11600 5550 11300 5550
+Wire Wire Line
+	11600 5950 11550 5950
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue C32
+U 1 1 5C98F028
+P 12125 7800
+F 0 "C32" H 12125 7900 40  0000 L CNN
+F 1 "1000PF" H 12131 7715 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 12163 7650 30  0001 C CNN
+F 3 "~" H 12125 7800 60  0000 C CNN
+	1    12125 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R58
+U 1 1 5C98F02F
+P 12550 8000
+F 0 "R58" V 12630 8000 40  0000 C CNN
+F 1 "1k" V 12557 8001 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 12480 8000 30  0001 C CNN
+F 3 "~" H 12550 8000 30  0000 C CNN
+	1    12550 8000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue C34
+U 1 1 5C98F036
+P 12575 8200
+F 0 "C34" V 12525 8000 40  0000 L CNN
+F 1 "150p" V 12625 8000 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 12613 8050 30  0001 C CNN
+F 3 "~" H 12575 8200 60  0000 C CNN
+	1    12575 8200
+	0    1    1    0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R52
+U 1 1 5C98F03D
+P 12550 7600
+F 0 "R52" V 12630 7600 40  0000 C CNN
+F 1 "1k" V 12557 7601 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 12480 7600 30  0001 C CNN
+F 3 "~" H 12550 7600 30  0000 C CNN
+	1    12550 7600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12850 7600 12800 7600
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue C29
+U 1 1 5C98F04C
+P 12850 7400
+F 0 "C29" H 12850 7500 40  0000 L CNN
+F 1 "150p" H 12856 7315 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 12888 7250 30  0001 C CNN
+F 3 "~" H 12850 7400 60  0000 C CNN
+	1    12850 7400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12300 7600 12125 7600
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R50
+U 1 1 5C98F054
+P 12125 7350
+F 0 "R50" V 12205 7350 40  0000 C CNN
+F 1 "22k" V 12132 7351 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 12055 7350 30  0001 C CNN
+F 3 "~" H 12125 7350 30  0000 C CNN
+	1    12125 7350
+	1    0    0    -1  
+$EndComp
+Connection ~ 12125 7600
+Wire Wire Line
+	12300 8000 12125 8000
+Wire Wire Line
+	12775 8200 12800 8200
+Wire Wire Line
+	12300 8200 12375 8200
+Wire Wire Line
+	12300 8200 12300 8250
+Wire Wire Line
+	12800 8000 12800 8200
+Wire Wire Line
+	12900 8000 12800 8000
+Connection ~ 12800 8000
+Wire Wire Line
+	12850 7600 12850 7800
+Wire Wire Line
+	12850 7800 12900 7800
+Connection ~ 12850 7600
+Wire Wire Line
+	12125 7100 12850 7100
+Wire Wire Line
+	12850 7200 12850 7100
+Connection ~ 12850 7100
+Wire Wire Line
+	12850 7100 13550 7100
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R57
+U 1 1 5C98F06A
+P 11875 8000
+F 0 "R57" V 11955 8000 40  0000 C CNN
+F 1 "10k" V 11882 8001 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 11805 8000 30  0001 C CNN
+F 3 "~" H 11875 8000 30  0000 C CNN
+	1    11875 8000
+	0    -1   -1   0   
+$EndComp
+Connection ~ 12125 8000
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R51
+U 1 1 5C98F072
+P 11875 7600
+F 0 "R51" V 11955 7600 40  0000 C CNN
+F 1 "10k" V 11882 7601 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 11805 7600 30  0001 C CNN
+F 3 "~" H 11875 7600 30  0000 C CNN
+	1    11875 7600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11625 7600 11325 7600
+Wire Wire Line
+	11625 8000 11575 8000
+Wire Wire Line
+	13550 3000 13550 3800
+Wire Wire Line
+	13550 5050 13550 5850
+Wire Wire Line
+	13475 5850 13550 5850
+Connection ~ 13550 3800
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:LME49720-SamacSys_Parts-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue U4
+U 2 1 5CA45179
+P 10350 5025
+F 0 "U4" H 10425 4850 50  0000 C CNN
+F 1 "LME49720" H 10475 4775 50  0000 C CNN
+F 2 "Myfootprints:SOIC127P600X175-8N" H 10250 5075 50  0001 C CNN
+F 3 "" H 10350 5175 50  0000 C CNN
+	2    10350 5025
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:LME49720-SamacSys_Parts-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue U1
+U 1 1 5CA45180
+P 13200 1875
+F 0 "U1" H 13200 1603 50  0000 C CNN
+F 1 "LME49720" H 13200 1512 50  0000 C CNN
+F 2 "Myfootprints:SOIC127P600X175-8N" H 13100 1925 50  0001 C CNN
+F 3 "" H 13200 2025 50  0000 C CNN
+	1    13200 1875
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR041
+U 1 1 5CA4518D
+P 7800 5350
+F 0 "#PWR041" H 7800 5350 30  0001 C CNN
+F 1 "GND" H 7800 5280 30  0001 C CNN
+F 2 "" H 7800 5350 60  0000 C CNN
+F 3 "" H 7800 5350 60  0000 C CNN
+	1    7800 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 4900 7600 4750
+Wire Wire Line
+	7600 4750 8200 4750
+Wire Wire Line
+	8200 4750 8200 5000
+Wire Wire Line
+	7800 5300 7800 5350
+Wire Wire Line
+	6875 5000 6875 5100
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R30
+U 1 1 5CAB54A9
+P 7300 5100
+F 0 "R30" V 7380 5100 40  0000 C CNN
+F 1 "10k" V 7307 5101 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 7230 5100 30  0001 C CNN
+F 3 "~" H 7300 5100 30  0000 C CNN
+	1    7300 5100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7050 5100 6875 5100
+Connection ~ 6875 5100
+Wire Wire Line
+	6875 5100 6875 5300
+Wire Wire Line
+	7550 5100 7575 5100
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue C17
+U 1 1 5CADC56F
+P 7575 5300
+F 0 "C17" H 7575 5400 40  0000 L CNN
+F 1 "100n" H 7581 5215 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7613 5150 30  0001 C CNN
+F 3 "~" H 7575 5300 60  0000 C CNN
+	1    7575 5300
+	-1   0    0    1   
+$EndComp
+Connection ~ 7575 5100
+Wire Wire Line
+	7575 5100 7600 5100
+$Comp
+L power:+5VA #PWR0113
+U 1 1 5CAE9F64
+P 10725 5025
+F 0 "#PWR0113" H 10725 4875 50  0001 C CNN
+F 1 "+5VA" V 10740 5153 50  0000 L CNN
+F 2 "" H 10725 5025 50  0001 C CNN
+F 3 "" H 10725 5025 50  0001 C CNN
+	1    10725 5025
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	8275 5000 8200 5000
+$Comp
+L power:+1V5 #PWR034
+U 1 1 5CB2BDE3
+P 8275 5000
+F 0 "#PWR034" H 8275 4850 50  0001 C CNN
+F 1 "+1V5" V 8290 5128 50  0000 L CNN
+F 2 "" H 8275 5000 50  0001 C CNN
+F 3 "" H 8275 5000 50  0001 C CNN
+	1    8275 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+1V5 #PWR05
+U 1 1 5CB46682
+P 11575 1975
+F 0 "#PWR05" H 11575 1825 50  0001 C CNN
+F 1 "+1V5" V 11575 2100 50  0000 L CNN
+F 2 "" H 11575 1975 50  0001 C CNN
+F 3 "" H 11575 1975 50  0001 C CNN
+	1    11575 1975
+	0    -1   1    0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R11
+U 1 1 5CB60D3D
+P 11875 2150
+F 0 "R11" V 11955 2150 40  0000 C CNN
+F 1 "22k" V 11882 2151 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 11805 2150 30  0001 C CNN
+F 3 "~" H 11875 2150 30  0000 C CNN
+	1    11875 2150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12125 2150 12125 1975
+Wire Wire Line
+	11575 2150 11625 2150
+$Comp
+L power:+5VA #PWR026
+U 1 1 5CBD8906
+P 11600 4075
+F 0 "#PWR026" H 11600 3925 50  0001 C CNN
+F 1 "+5VA" V 11615 4202 50  0000 L CNN
+F 2 "" H 11600 4075 50  0001 C CNN
+F 3 "" H 11600 4075 50  0001 C CNN
+	1    11600 4075
+	0    -1   -1   0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R26
+U 1 1 5CBD890C
+P 11900 4075
+F 0 "R26" V 11980 4075 40  0000 C CNN
+F 1 "22k" V 11907 4076 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 11830 4075 30  0001 C CNN
+F 3 "~" H 11900 4075 30  0000 C CNN
+	1    11900 4075
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12150 4075 12150 3900
+Wire Wire Line
+	11600 4075 11650 4075
+$Comp
+L power:+5VA #PWR050
+U 1 1 5CBE62E2
+P 11550 6125
+F 0 "#PWR050" H 11550 5975 50  0001 C CNN
+F 1 "+5VA" V 11565 6252 50  0000 L CNN
+F 2 "" H 11550 6125 50  0001 C CNN
+F 3 "" H 11550 6125 50  0001 C CNN
+	1    11550 6125
+	0    -1   -1   0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R42
+U 1 1 5CBE62E8
+P 11850 6125
+F 0 "R42" V 11930 6125 40  0000 C CNN
+F 1 "22k" V 11857 6126 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 11780 6125 30  0001 C CNN
+F 3 "~" H 11850 6125 30  0000 C CNN
+	1    11850 6125
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12100 6125 12100 5950
+Wire Wire Line
+	11550 6125 11600 6125
+$Comp
+L power:+5VA #PWR083
+U 1 1 5CBF41C6
+P 11575 8175
+F 0 "#PWR083" H 11575 8025 50  0001 C CNN
+F 1 "+5VA" V 11590 8302 50  0000 L CNN
+F 2 "" H 11575 8175 50  0001 C CNN
+F 3 "" H 11575 8175 50  0001 C CNN
+	1    11575 8175
+	0    -1   -1   0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R63
+U 1 1 5CBF41CC
+P 11875 8175
+F 0 "R63" V 11955 8175 40  0000 C CNN
+F 1 "22k" V 11882 8176 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 11805 8175 30  0001 C CNN
+F 3 "~" H 11875 8175 30  0000 C CNN
+	1    11875 8175
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12125 8175 12125 8000
+Wire Wire Line
+	11575 8175 11625 8175
+$Comp
+L power:+1V5 #PWR025
+U 1 1 5CC031C8
+P 11600 3900
+F 0 "#PWR025" H 11600 3750 50  0001 C CNN
+F 1 "+1V5" V 11600 4025 50  0000 L CNN
+F 2 "" H 11600 3900 50  0001 C CNN
+F 3 "" H 11600 3900 50  0001 C CNN
+	1    11600 3900
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:+1V5 #PWR047
+U 1 1 5CC113A3
+P 11550 5950
+F 0 "#PWR047" H 11550 5800 50  0001 C CNN
+F 1 "+1V5" V 11550 6075 50  0000 L CNN
+F 2 "" H 11550 5950 50  0001 C CNN
+F 3 "" H 11550 5950 50  0001 C CNN
+	1    11550 5950
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:+1V5 #PWR079
+U 1 1 5CC1F502
+P 11575 8000
+F 0 "#PWR079" H 11575 7850 50  0001 C CNN
+F 1 "+1V5" V 11575 8125 50  0000 L CNN
+F 2 "" H 11575 8000 50  0001 C CNN
+F 3 "" H 11575 8000 50  0001 C CNN
+	1    11575 8000
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:+12V #PWR069
+U 1 1 5CC3D942
+P 13100 7475
+F 0 "#PWR069" H 13100 7325 50  0001 C CNN
+F 1 "+12V" H 13100 7615 50  0000 C CNN
+F 2 "" H 13100 7475 60  0000 C CNN
+F 3 "" H 13100 7475 60  0000 C CNN
+	1    13100 7475
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR024
+U 1 1 5CC4C2DE
+P 13125 3450
+F 0 "#PWR024" H 13125 3300 50  0001 C CNN
+F 1 "+12V" H 13125 3590 50  0000 C CNN
+F 2 "" H 13125 3450 60  0000 C CNN
+F 3 "" H 13125 3450 60  0000 C CNN
+	1    13125 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0109
+U 1 1 5CC5A726
+P 10250 4700
+F 0 "#PWR0109" H 10250 4550 50  0001 C CNN
+F 1 "+12V" H 10250 4840 50  0000 C CNN
+F 2 "" H 10250 4700 60  0000 C CNN
+F 3 "" H 10250 4700 60  0000 C CNN
+	1    10250 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10250 4700 10250 4725
+$Comp
+L power:+5V #PWR0114
+U 1 1 5CC77578
+P 9525 5075
+F 0 "#PWR0114" H 9525 4925 50  0001 C CNN
+F 1 "+5V" H 9525 5215 50  0000 C CNN
+F 2 "" H 9525 5075 60  0000 C CNN
+F 3 "" H 9525 5075 60  0000 C CNN
+	1    9525 5075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 4925 10050 4475
+Wire Wire Line
+	10050 4475 10675 4475
+Wire Wire Line
+	10675 4475 10675 5025
+Wire Wire Line
+	10675 5025 10650 5025
+Wire Wire Line
+	10725 5025 10675 5025
+Connection ~ 10675 5025
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R74
+U 1 1 5CCA2DC4
+P 9775 5125
+F 0 "R74" V 9855 5125 40  0000 C CNN
+F 1 "100K" V 9782 5126 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 9705 5125 30  0001 C CNN
+F 3 "~" H 9775 5125 30  0000 C CNN
+	1    9775 5125
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9525 5075 9525 5125
+Wire Wire Line
+	10025 5125 10050 5125
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue C47
+U 1 1 5CCCFC28
+P 10025 5375
+F 0 "C47" H 10025 5475 40  0000 L CNN
+F 1 "2.2u" H 10031 5290 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10063 5225 30  0001 C CNN
+F 3 "~" H 10025 5375 60  0000 C CNN
+	1    10025 5375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10025 5175 10025 5125
+Connection ~ 10025 5125
+Wire Wire Line
+	10025 5575 10025 5625
+Text Notes 11325 1675 0    50   ~ 0
+(2.5Vpp)
+Text Notes 13325 2000 0    50   ~ 0
+(2Vrms)
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:LME49720-SamacSys_Parts-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue U4
+U 1 1 5CD1F9E4
+P 7900 5000
+F 0 "U4" H 7950 4825 50  0000 C CNN
+F 1 "LME49720" H 8050 4750 50  0000 C CNN
+F 2 "Myfootprints:SOIC127P600X175-8N" H 7800 5050 50  0001 C CNN
+F 3 "" H 7900 5150 50  0000 C CNN
+	1    7900 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:LME49720-SamacSys_Parts-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue U3
+U 2 1 5CD1F9EB
+P 2550 5775
+F 0 "U3" H 2550 5503 50  0000 C CNN
+F 1 "LME49720" H 2550 5412 50  0000 C CNN
+F 2 "Myfootprints:SOIC127P600X175-8N" H 2450 5825 50  0001 C CNN
+F 3 "" H 2550 5925 50  0000 C CNN
+	2    2550 5775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 5525 2850 5525
+Wire Wire Line
+	2850 5525 2850 5775
+$Comp
+L power:+12V #PWR028
+U 1 1 5CD1FA09
+P 2450 5375
+F 0 "#PWR028" H 2450 5225 50  0001 C CNN
+F 1 "+12V" H 2450 5515 50  0000 C CNN
+F 2 "" H 2450 5375 60  0000 C CNN
+F 3 "" H 2450 5375 60  0000 C CNN
+	1    2450 5375
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R34
+U 1 1 5CDBBBC8
+P 4800 5850
+F 0 "R34" V 4880 5850 40  0000 C CNN
+F 1 "0R" V 4807 5851 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4730 5850 30  0001 C CNN
+F 3 "~" H 4800 5850 30  0000 C CNN
+	1    4800 5850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5650 5350 5500 5350
+Wire Wire Line
+	5500 5350 5500 5850
+Wire Wire Line
+	5050 5850 5500 5850
+Connection ~ 5500 5850
+Wire Wire Line
+	5500 5850 5525 5850
+$Comp
+L power:+5VA #PWR056
+U 1 1 5CE72A84
+P 2150 6450
+F 0 "#PWR056" H 2150 6300 50  0001 C CNN
+F 1 "+5VA" V 2165 6577 50  0000 L CNN
+F 2 "" H 2150 6450 50  0001 C CNN
+F 3 "" H 2150 6450 50  0001 C CNN
+	1    2150 6450
+	-1   0    0    1   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R45
+U 1 1 5CE8548F
+P 2150 6150
+F 0 "R45" V 2230 6150 40  0000 C CNN
+F 1 "100k" V 2157 6151 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2080 6150 30  0001 C CNN
+F 3 "~" H 2150 6150 30  0000 C CNN
+	1    2150 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 5900 2150 5875
+Wire Wire Line
+	2150 5875 2250 5875
+Wire Wire Line
+	2150 6400 2150 6450
+Wire Wire Line
+	2250 5525 2250 5675
+Wire Wire Line
+	3600 4525 3975 4525
+$Comp
+L power:+5VA #PWR035
+U 1 1 5D0169F1
+P 2125 5200
+F 0 "#PWR035" H 2125 5050 50  0001 C CNN
+F 1 "+5VA" V 2140 5327 50  0000 L CNN
+F 2 "" H 2125 5200 50  0001 C CNN
+F 3 "" H 2125 5200 50  0001 C CNN
+	1    2125 5200
+	-1   0    0    1   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R29
+U 1 1 5D0169F7
+P 2125 4900
+F 0 "R29" V 2205 4900 40  0000 C CNN
+F 1 "100k" V 2132 4901 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2055 4900 30  0001 C CNN
+F 3 "~" H 2125 4900 30  0000 C CNN
+	1    2125 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2125 4650 2125 4625
+Wire Wire Line
+	2125 4625 2225 4625
+Wire Wire Line
+	2125 5150 2125 5200
+$Comp
+L Device:CP_Small C24
+U 1 1 5D055246
+P 2050 5875
+F 0 "C24" V 1825 5875 50  0000 C CNN
+F 1 "2.2uF/16" V 1916 5875 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 2050 5875 50  0001 C CNN
+F 3 "~" H 2050 5875 50  0001 C CNN
+	1    2050 5875
+	0    1    1    0   
+$EndComp
+Connection ~ 2150 5875
+$Comp
+L Device:CP_Small C14
+U 1 1 5D07DFFB
+P 2025 4625
+F 0 "C14" V 1800 4625 50  0000 C CNN
+F 1 "2.2uF/16" V 1891 4625 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 2025 4625 50  0001 C CNN
+F 3 "~" H 2025 4625 50  0001 C CNN
+	1    2025 4625
+	0    1    1    0   
+$EndComp
+Connection ~ 2125 4625
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R44
+U 1 1 5D0928A1
+P 1875 6150
+F 0 "R44" V 1955 6150 40  0000 C CNN
+F 1 "47k" V 1882 6151 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 1805 6150 30  0001 C CNN
+F 3 "~" H 1875 6150 30  0000 C CNN
+	1    1875 6150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1875 5900 1875 5875
+Wire Wire Line
+	1875 5875 1950 5875
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R28
+U 1 1 5D0E3DDE
+P 1850 4900
+F 0 "R28" V 1930 4900 40  0000 C CNN
+F 1 "47k" V 1857 4901 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 1780 4900 30  0001 C CNN
+F 3 "~" H 1850 4900 30  0000 C CNN
+	1    1850 4900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1850 4650 1850 4625
+Wire Wire Line
+	1850 4625 1925 4625
+Wire Wire Line
+	3975 4525 3975 6150
+$Comp
+L Device:CP_Small C13
+U 1 1 5D13450F
+P 3425 5950
+F 0 "C13" V 3200 5950 50  0000 C CNN
+F 1 "47uF/6.3" V 3291 5950 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 3425 5950 50  0001 C CNN
+F 3 "~" H 3425 5950 50  0001 C CNN
+	1    3425 5950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:CP_Small C22
+U 1 1 5D16E7CD
+P 3500 4525
+F 0 "C22" V 3625 4525 50  0000 C CNN
+F 1 "47uF/6.3" V 3366 4525 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 3500 4525 50  0001 C CNN
+F 3 "~" H 3500 4525 50  0001 C CNN
+	1    3500 4525
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J5
+U 1 1 5D182463
+P 1550 4625
+F 0 "J5" H 1480 4863 50  0000 C CNN
+F 1 "Conn_RCA" H 1550 4775 50  0000 C CNN
+F 2 "MyJacks:RJ-2410N" H 1550 4625 50  0001 C CNN
+F 3 " ~" H 1550 4625 50  0001 C CNN
+	1    1550 4625
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 4625 1850 4625
+Connection ~ 1850 4625
+Wire Wire Line
+	1550 4825 1550 5175
+Wire Wire Line
+	1550 5175 1850 5175
+Wire Wire Line
+	1850 5175 1850 5150
+$Comp
+L Connector:Conn_Coaxial J7
+U 1 1 5D1D09CA
+P 1575 5875
+F 0 "J7" H 1505 6113 50  0000 C CNN
+F 1 "Conn_RCA" H 1575 6025 50  0000 C CNN
+F 2 "MyJacks:RJ-2410N" H 1575 5875 50  0001 C CNN
+F 3 " ~" H 1575 5875 50  0001 C CNN
+	1    1575 5875
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1575 6075 1575 6425
+Wire Wire Line
+	1575 6425 1875 6425
+Wire Wire Line
+	1875 6400 1875 6425
+Wire Wire Line
+	1775 5875 1875 5875
+Connection ~ 1875 5875
+Wire Wire Line
+	1850 5175 4550 5175
+Connection ~ 1850 5175
+Connection ~ 8200 5000
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR010
+U 1 1 5D3133D5
+P 13100 2175
+F 0 "#PWR010" H 13100 2175 30  0001 C CNN
+F 1 "GND" H 13100 2105 30  0001 C CNN
+F 2 "" H 13100 2175 60  0000 C CNN
+F 3 "" H 13100 2175 60  0000 C CNN
+	1    13100 2175
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:2SC1945-FT232H-AUDIO-cache-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue Q1
+U 1 1 5C484A44
+P 14425 2150
+F 0 "Q1" H 14200 2250 50  0000 L CNN
+F 1 "2SC3326" H 14075 2350 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 14625 2075 50  0001 L CIN
+F 3 "" H 14425 2150 50  0001 L CNN
+	1    14425 2150
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	14675 1875 14875 1875
+Wire Wire Line
+	13975 1875 14000 1875
+Wire Wire Line
+	14525 1950 14525 1875
+Connection ~ 14525 1875
+Wire Wire Line
+	14525 1875 14675 1875
+Wire Wire Line
+	14725 3800 14925 3800
+Wire Wire Line
+	13975 3800 14000 3800
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:2SC1945-FT232H-AUDIO-cache-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue Q3
+U 1 1 5C5B63AF
+P 14475 4100
+F 0 "Q3" H 14250 4200 50  0000 L CNN
+F 1 "2SC3326" H 14125 4300 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 14675 4025 50  0001 L CIN
+F 3 "" H 14475 4100 50  0001 L CNN
+	1    14475 4100
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	14575 3800 14575 3900
+Connection ~ 14575 3800
+Wire Wire Line
+	14575 3800 14725 3800
+Wire Wire Line
+	14625 5850 14825 5850
+Wire Wire Line
+	14825 5950 14825 5850
+Connection ~ 14825 5850
+Wire Wire Line
+	14825 5850 15050 5850
+Wire Wire Line
+	14450 5850 14475 5850
+Connection ~ 14625 5850
+Connection ~ 14700 7900
+Wire Wire Line
+	14700 7900 14900 7900
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:2SC1945-FT232H-AUDIO-cache-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue Q5
+U 1 1 5C67F439
+P 14375 6125
+F 0 "Q5" H 14150 6225 50  0000 L CNN
+F 1 "2SC3326" H 14025 6325 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 14575 6050 50  0001 L CIN
+F 3 "" H 14375 6125 50  0001 L CNN
+	1    14375 6125
+	1    0    0    1   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:2SC1945-FT232H-AUDIO-cache-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue Q7
+U 1 1 5C695AEF
+P 14425 8200
+F 0 "Q7" H 14200 8300 50  0000 L CNN
+F 1 "2SC3326" H 14075 8400 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 14625 8125 50  0001 L CIN
+F 3 "" H 14425 8200 50  0001 L CNN
+	1    14425 8200
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	14525 8000 14525 7900
+Connection ~ 14525 7900
+Wire Wire Line
+	14525 7900 14700 7900
+Wire Wire Line
+	14475 5925 14475 5850
+Connection ~ 14475 5850
+Wire Wire Line
+	14475 5850 14625 5850
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R64
+U 1 1 5C71FCD2
+P 13975 8200
+F 0 "R64" V 14055 8200 40  0000 C CNN
+F 1 "22k" V 13982 8201 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 13905 8200 30  0001 C CNN
+F 3 "~" H 13975 8200 30  0000 C CNN
+	1    13975 8200
+	0    1    1    0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R43
+U 1 1 5C904014
+P 13925 6125
+F 0 "R43" V 14005 6125 40  0000 C CNN
+F 1 "22k" V 13932 6126 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 13855 6125 30  0001 C CNN
+F 3 "~" H 13925 6125 30  0000 C CNN
+	1    13925 6125
+	0    1    1    0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R27
+U 1 1 5C91B846
+P 14025 4100
+F 0 "R27" V 14105 4100 40  0000 C CNN
+F 1 "22k" V 14032 4101 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 13955 4100 30  0001 C CNN
+F 3 "~" H 14025 4100 30  0000 C CNN
+	1    14025 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R12
+U 1 1 5C93351F
+P 13975 2150
+F 0 "R12" V 14055 2150 40  0000 C CNN
+F 1 "22k" V 13982 2151 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 13905 2150 30  0001 C CNN
+F 3 "~" H 13975 2150 30  0000 C CNN
+	1    13975 2150
+	0    1    1    0   
+$EndComp
+Text Label 13100 8550 0    50   ~ 0
+MUTE
+Wire Wire Line
+	13100 6475 13675 6475
+Text Label 13100 6475 0    50   ~ 0
+MUTE
+Text Label 13175 4550 0    50   ~ 0
+MUTE
+Wire Wire Line
+	13150 2575 13725 2575
+Text Label 13150 2575 0    50   ~ 0
+MUTE
+$Comp
+L Transistor_FET:IRLML6402 Q10
+U 1 1 5CA7944C
+P 6550 9950
+F 0 "Q10" H 6775 9975 50  0000 L CNN
+F 1 "AO3401A" H 6750 10050 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 6750 9875 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 6550 9950 50  0001 L CNN
+	1    6550 9950
+	1    0    0    1   
+$EndComp
+$Comp
+L power:+12V #PWR0106
+U 1 1 5CAABF46
+P 6200 9275
+F 0 "#PWR0106" H 6200 9125 50  0001 C CNN
+F 1 "+12V" H 6200 9415 50  0000 C CNN
+F 2 "" H 6200 9275 60  0000 C CNN
+F 3 "" H 6200 9275 60  0000 C CNN
+	1    6200 9275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 9400 6650 9750
+Wire Wire Line
+	6200 9275 6200 9400
+$Comp
+L Device:CP C46
+U 1 1 5CB2C377
+P 6900 9625
+F 0 "C46" H 6625 9675 40  0000 L CNN
+F 1 "220u/16V" H 6425 9600 40  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 7000 9475 30  0001 C CNN
+F 3 "~" H 6900 9625 300 0000 C CNN
+	1    6900 9625
+	-1   0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR0117
+U 1 1 5CB2C37D
+P 6900 9825
+F 0 "#PWR0117" H 6900 9825 30  0001 C CNN
+F 1 "GND" H 6900 9755 30  0001 C CNN
+F 2 "" H 6900 9825 60  0000 C CNN
+F 3 "" H 6900 9825 60  0000 C CNN
+	1    6900 9825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 9400 6650 9400
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R73
+U 1 1 5CB7B042
+P 6400 9750
+F 0 "R73" V 6480 9750 40  0000 C CNN
+F 1 "1MEG" V 6407 9751 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6330 9750 30  0001 C CNN
+F 3 "~" H 6400 9750 30  0000 C CNN
+	1    6400 9750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6125 9400 6200 9400
+Connection ~ 6200 9400
+Wire Wire Line
+	6200 9400 6350 9400
+Wire Wire Line
+	5700 9400 5825 9400
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR0122
+U 1 1 5CC361FA
+P 5375 9925
+F 0 "#PWR0122" H 5375 9925 30  0001 C CNN
+F 1 "GND" H 5375 9855 30  0001 C CNN
+F 2 "" H 5375 9925 60  0000 C CNN
+F 3 "" H 5375 9925 60  0000 C CNN
+	1    5375 9925
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue C49
+U 1 1 5CC35EB2
+P 5375 9650
+F 0 "C49" H 5150 9700 40  0000 L CNN
+F 1 "2.2u" H 5125 9625 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5413 9500 30  0001 C CNN
+F 3 "~" H 5375 9650 60  0000 C CNN
+	1    5375 9650
+	-1   0    0    -1  
+$EndComp
+Connection ~ 6650 9750
+Wire Wire Line
+	5700 9400 5700 9950
+Wire Wire Line
+	6350 9950 6150 9950
+Wire Wire Line
+	6150 9950 6150 9750
+Wire Wire Line
+	6150 9950 5700 9950
+Connection ~ 6150 9950
+Wire Notes Line
+	7525 1325 8800 1325
+Wire Notes Line
+	7525 1450 7525 1325
+Text Notes 6050 9600 0    50   ~ 10
+MUTING
+Wire Notes Line
+	6050 9625 6350 9625
+Wire Notes Line
+	6350 9500 6050 9500
+Wire Notes Line
+	6050 9625 6050 9500
+Wire Notes Line
+	6350 9625 6350 9500
+$Comp
+L Connector:Conn_Coaxial J2
+U 1 1 5C9FB83B
+P 15275 1875
+F 0 "J2" H 15205 2113 50  0000 C CNN
+F 1 "Conn_RCA" H 15205 2022 50  0000 C CNN
+F 2 "MyJacks:RJ-2410N" H 15275 1875 50  0001 C CNN
+F 3 " ~" H 15275 1875 50  0001 C CNN
+	1    15275 1875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J4
+U 1 1 5CA6A86C
+P 15250 3800
+F 0 "J4" H 15180 4038 50  0000 C CNN
+F 1 "Conn_RCA" H 15180 3947 50  0000 C CNN
+F 2 "MyJacks:RJ-2410N" H 15250 3800 50  0001 C CNN
+F 3 " ~" H 15250 3800 50  0001 C CNN
+	1    15250 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J6
+U 1 1 5CABC129
+P 15250 5850
+F 0 "J6" H 15180 6088 50  0000 C CNN
+F 1 "Conn_RCA" H 15180 5997 50  0000 C CNN
+F 2 "MyJacks:RJ-2410N" H 15250 5850 50  0001 C CNN
+F 3 " ~" H 15250 5850 50  0001 C CNN
+	1    15250 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J8
+U 1 1 5CAD6F7F
+P 15225 7900
+F 0 "J8" H 15155 8138 50  0000 C CNN
+F 1 "Conn_RCA" H 15155 8047 50  0000 C CNN
+F 2 "MyJacks:RJ-2410N" H 15225 7900 50  0001 C CNN
+F 3 " ~" H 15225 7900 50  0001 C CNN
+	1    15225 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDS #PWR013
+U 1 1 5CAF2519
+P 15275 2425
+F 0 "#PWR013" H 15275 2175 50  0001 C CNN
+F 1 "GNDS" H 15280 2252 50  0000 C CNN
+F 2 "" H 15275 2425 50  0001 C CNN
+F 3 "" H 15275 2425 50  0001 C CNN
+	1    15275 2425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14525 2350 14525 2375
+Wire Wire Line
+	14525 2375 14675 2375
+Wire Wire Line
+	14675 2375 14875 2375
+Connection ~ 14675 2375
+Wire Wire Line
+	14875 2375 15275 2375
+Wire Wire Line
+	15275 2375 15275 2075
+Connection ~ 14875 2375
+Wire Wire Line
+	15275 2375 15275 2425
+Connection ~ 15275 2375
+$Comp
+L power:GNDS #PWR012
+U 1 1 5CB9679D
+P 12300 2225
+F 0 "#PWR012" H 12300 1975 50  0001 C CNN
+F 1 "GNDS" H 12305 2052 50  0000 C CNN
+F 2 "" H 12300 2225 50  0001 C CNN
+F 3 "" H 12300 2225 50  0001 C CNN
+	1    12300 2225
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDS #PWR027
+U 1 1 5CBB2C5B
+P 12325 4150
+F 0 "#PWR027" H 12325 3900 50  0001 C CNN
+F 1 "GNDS" H 12330 3977 50  0000 C CNN
+F 2 "" H 12325 4150 50  0001 C CNN
+F 3 "" H 12325 4150 50  0001 C CNN
+	1    12325 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14575 4300 14575 4325
+Wire Wire Line
+	14575 4325 14725 4325
+Wire Wire Line
+	15250 4325 15250 4000
+Wire Wire Line
+	14925 4300 14925 4325
+Connection ~ 14925 4325
+Wire Wire Line
+	14925 4325 15250 4325
+Wire Wire Line
+	14725 4300 14725 4325
+Connection ~ 14725 4325
+Wire Wire Line
+	14725 4325 14925 4325
+Wire Wire Line
+	15250 4325 15250 4375
+Connection ~ 15250 4325
+$Comp
+L power:GNDS #PWR030
+U 1 1 5CC3EADB
+P 15250 4375
+F 0 "#PWR030" H 15250 4125 50  0001 C CNN
+F 1 "GNDS" H 15255 4202 50  0000 C CNN
+F 2 "" H 15250 4375 50  0001 C CNN
+F 3 "" H 15250 4375 50  0001 C CNN
+	1    15250 4375
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDS #PWR052
+U 1 1 5CC78494
+P 12275 6200
+F 0 "#PWR052" H 12275 5950 50  0001 C CNN
+F 1 "GNDS" H 12280 6027 50  0000 C CNN
+F 2 "" H 12275 6200 50  0001 C CNN
+F 3 "" H 12275 6200 50  0001 C CNN
+	1    12275 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14475 6325 14475 6375
+Wire Wire Line
+	14475 6375 14625 6375
+Wire Wire Line
+	15250 6375 15250 6050
+Wire Wire Line
+	14825 6350 14825 6375
+Connection ~ 14825 6375
+Wire Wire Line
+	14825 6375 15250 6375
+Wire Wire Line
+	14625 6350 14625 6375
+Connection ~ 14625 6375
+Wire Wire Line
+	14625 6375 14825 6375
+Wire Wire Line
+	15250 6375 15250 6400
+Connection ~ 15250 6375
+$Comp
+L power:GNDS #PWR055
+U 1 1 5CD08E76
+P 15250 6400
+F 0 "#PWR055" H 15250 6150 50  0001 C CNN
+F 1 "GNDS" H 15255 6227 50  0000 C CNN
+F 2 "" H 15250 6400 50  0001 C CNN
+F 3 "" H 15250 6400 50  0001 C CNN
+	1    15250 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDS #PWR085
+U 1 1 5CD26DFA
+P 12300 8250
+F 0 "#PWR085" H 12300 8000 50  0001 C CNN
+F 1 "GNDS" H 12305 8077 50  0000 C CNN
+F 2 "" H 12300 8250 50  0001 C CNN
+F 3 "" H 12300 8250 50  0001 C CNN
+	1    12300 8250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14525 8400 14525 8425
+Wire Wire Line
+	14525 8425 14700 8425
+Wire Wire Line
+	15225 8425 15225 8100
+Wire Wire Line
+	14900 8400 14900 8425
+Connection ~ 14900 8425
+Wire Wire Line
+	14900 8425 15225 8425
+Wire Wire Line
+	14700 8400 14700 8425
+Connection ~ 14700 8425
+Wire Wire Line
+	14700 8425 14900 8425
+Wire Wire Line
+	15225 8425 15225 8450
+Connection ~ 15225 8425
+$Comp
+L power:GNDS #PWR098
+U 1 1 5CDBC63A
+P 15225 8450
+F 0 "#PWR098" H 15225 8200 50  0001 C CNN
+F 1 "GNDS" H 15230 8277 50  0000 C CNN
+F 2 "" H 15225 8450 50  0001 C CNN
+F 3 "" H 15225 8450 50  0001 C CNN
+	1    15225 8450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDS #PWR0121
+U 1 1 5CE377F5
+P 10025 5625
+F 0 "#PWR0121" H 10025 5375 50  0001 C CNN
+F 1 "GNDS" H 10030 5452 50  0000 C CNN
+F 2 "" H 10025 5625 50  0001 C CNN
+F 3 "" H 10025 5625 50  0001 C CNN
+	1    10025 5625
+	1    0    0    -1  
+$EndComp
+Text Notes 900  5925 0    50   ~ 10
+INPUT 0
+Wire Notes Line
+	900  5950 900  5825
+Wire Notes Line
+	1225 5950 1225 5825
+Wire Notes Line
+	875  4700 875  4575
+Wire Notes Line
+	1200 4700 1200 4575
+Wire Notes Line
+	875  4700 1200 4700
+Wire Notes Line
+	900  5825 1225 5825
+Wire Notes Line
+	900  5950 1225 5950
+Text Notes 875  4675 0    50   ~ 10
+INPUT 1
+Wire Notes Line
+	875  4575 1200 4575
+Text Notes 15475 1900 0    50   ~ 10
+OUTPUT0
+Wire Notes Line
+	15475 1925 15475 1800
+Wire Notes Line
+	15825 1925 15825 1800
+Wire Notes Line
+	15475 1800 15825 1800
+Wire Notes Line
+	15825 1925 15475 1925
+Text Notes 15475 3825 0    50   ~ 10
+OUTPUT1
+Wire Notes Line
+	15475 3850 15475 3725
+Wire Notes Line
+	15825 3850 15825 3725
+Wire Notes Line
+	15475 3725 15825 3725
+Wire Notes Line
+	15825 3850 15475 3850
+Text Notes 15450 5900 0    50   ~ 10
+OUTPUT2
+Wire Notes Line
+	15450 5925 15450 5800
+Wire Notes Line
+	15800 5925 15800 5800
+Wire Notes Line
+	15450 5800 15800 5800
+Wire Notes Line
+	15800 5925 15450 5925
+Text Notes 15475 7925 0    50   ~ 10
+OUTPUT3
+Wire Notes Line
+	15475 7950 15475 7825
+Wire Notes Line
+	15825 7950 15825 7825
+Wire Notes Line
+	15475 7825 15825 7825
+Wire Notes Line
+	15825 7950 15475 7950
+Connection ~ 9025 8125
+Wire Wire Line
+	7875 8125 9025 8125
+Wire Wire Line
+	9025 9875 9800 9875
+Text Notes 8200 8775 0    50   ~ 10
+PROGRAM\nSELECT SW
+Wire Notes Line
+	8625 8600 8200 8600
+Wire Notes Line
+	8200 8600 8200 8800
+Wire Notes Line
+	8200 8800 8625 8800
+Wire Notes Line
+	8625 8800 8625 8600
+Text Notes 8725 5075 0    50   ~ 10
+SIGNAL\nREFERENCE
+Text Notes 11200 5075 0    50   ~ 10
+SIGNAL\nBIAS
+Wire Notes Line
+	8700 4900 8700 5100
+Wire Notes Line
+	8700 5100 9175 5100
+Wire Notes Line
+	9175 5100 9175 4900
+Wire Notes Line
+	9175 4900 8700 4900
+Wire Notes Line
+	11575 5100 11575 4900
+Wire Notes Line
+	11575 4900 11100 4900
+Wire Notes Line
+	11100 4900 11100 5100
+Wire Notes Line
+	11100 5100 11575 5100
+$Comp
+L 74xx:74HCT541 U2
+U 1 1 5D3BDD8E
+P 5550 2550
+F 0 "U2" H 5725 3375 50  0000 C CNN
+F 1 "SN74LV541APWR" H 5850 3275 50  0000 C CNN
+F 2 "digikey-footprints:TSSOP-20_W4.4mm" H 5550 2550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74HCT541" H 5550 2550 50  0001 C CNN
+	1    5550 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 6425 4550 6050
+Wire Wire Line
+	1875 6425 4550 6425
+Connection ~ 1875 6425
+Connection ~ 4550 6050
+Wire Wire Line
+	7325 2050 7825 2050
+Wire Wire Line
+	7325 2150 7325 2050
+Wire Wire Line
+	7225 2050 7225 1950
+Wire Wire Line
+	7225 1950 7825 1950
+Wire Wire Line
+	9500 2050 9500 1050
+Wire Wire Line
+	8325 2050 9500 2050
+Wire Wire Line
+	8400 2975 8400 2550
+Connection ~ 8400 2550
+Wire Wire Line
+	8400 2550 8325 2550
+Wire Wire Line
+	7800 2975 7800 2550
+Wire Wire Line
+	7800 2550 7825 2550
+Wire Wire Line
+	8400 3300 8500 3300
+Wire Wire Line
+	8500 3300 8500 2450
+Connection ~ 8500 2450
+Wire Wire Line
+	8500 2450 8700 2450
+Wire Wire Line
+	7800 3300 7700 3300
+Wire Wire Line
+	7700 3300 7700 2450
+Wire Wire Line
+	7700 2450 7825 2450
+Wire Wire Line
+	4400 2450 5050 2450
+Wire Wire Line
+	4350 2350 5050 2350
+Wire Wire Line
+	4350 2250 5050 2250
+Wire Wire Line
+	4350 2050 5050 2050
+Text GLabel 6200 2750 2    47   Output ~ 0
+MCLKI
+Wire Wire Line
+	6050 2750 6200 2750
+Wire Wire Line
+	8650 3475 4800 3475
+Wire Wire Line
+	4800 3475 4800 2750
+Wire Wire Line
+	4800 2750 5050 2750
+Wire Wire Line
+	8650 2650 8650 3475
+Wire Wire Line
+	7425 1050 7425 2250
+Wire Wire Line
+	7825 1750 7275 1750
+Wire Wire Line
+	7275 1850 7825 1850
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R8
+U 1 1 5DD4BC05
+P 6300 2050
+F 0 "R8" V 6325 1825 40  0000 C CNN
+F 1 "100R" V 6307 2051 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6230 2050 30  0001 C CNN
+F 3 "~" H 6300 2050 30  0000 C CNN
+	1    6300 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R9
+U 1 1 5DDDCB8E
+P 6300 2150
+F 0 "R9" V 6325 1925 40  0000 C CNN
+F 1 "100R" V 6307 2151 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6230 2150 30  0001 C CNN
+F 3 "~" H 6300 2150 30  0000 C CNN
+	1    6300 2150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R13
+U 1 1 5DE00717
+P 6300 2250
+F 0 "R13" V 6325 2025 40  0000 C CNN
+F 1 "100R" V 6307 2251 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6230 2250 30  0001 C CNN
+F 3 "~" H 6300 2250 30  0000 C CNN
+	1    6300 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R14
+U 1 1 5DE242A1
+P 6300 2350
+F 0 "R14" V 6325 2125 40  0000 C CNN
+F 1 "100R" V 6307 2351 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6230 2350 30  0001 C CNN
+F 3 "~" H 6300 2350 30  0000 C CNN
+	1    6300 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R15
+U 1 1 5DE47E30
+P 6300 2450
+F 0 "R15" V 6325 2225 40  0000 C CNN
+F 1 "100R" V 6307 2451 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6230 2450 30  0001 C CNN
+F 3 "~" H 6300 2450 30  0000 C CNN
+	1    6300 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R16
+U 1 1 5DE6B9C0
+P 6300 2550
+F 0 "R16" V 6325 2325 40  0000 C CNN
+F 1 "100R" V 6307 2551 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6230 2550 30  0001 C CNN
+F 3 "~" H 6300 2550 30  0000 C CNN
+	1    6300 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R17
+U 1 1 5DE8F54D
+P 6300 2650
+F 0 "R17" V 6325 2425 40  0000 C CNN
+F 1 "100R" V 6307 2651 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6230 2650 30  0001 C CNN
+F 3 "~" H 6300 2650 30  0000 C CNN
+	1    6300 2650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6550 2050 7225 2050
+Wire Wire Line
+	6550 2150 7325 2150
+Wire Wire Line
+	6550 2250 7425 2250
+Wire Wire Line
+	6550 2350 7825 2350
+Wire Wire Line
+	6550 2450 7700 2450
+Connection ~ 7700 2450
+Wire Wire Line
+	6550 2550 7800 2550
+Connection ~ 7800 2550
+Wire Wire Line
+	6550 2650 7825 2650
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR020
+U 1 1 5DFB587C
+P 5550 3350
+F 0 "#PWR020" H 5550 3350 30  0001 C CNN
+F 1 "GND" H 5550 3280 30  0001 C CNN
+F 2 "" H 5550 3350 60  0000 C CNN
+F 3 "" H 5550 3350 60  0000 C CNN
+	1    5550 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:3V3-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR02
+U 1 1 5DFB5BA7
+P 5550 1475
+F 0 "#PWR02" H 5550 1575 40  0001 C CNN
+F 1 "3V3" H 5550 1600 40  0000 C CNN
+F 2 "" H 5550 1475 60  0000 C CNN
+F 3 "" H 5550 1475 60  0000 C CNN
+	1    5550 1475
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR019
+U 1 1 5DFB6B61
+P 5000 3175
+F 0 "#PWR019" H 5000 3175 30  0001 C CNN
+F 1 "GND" H 5000 3105 30  0001 C CNN
+F 2 "" H 5000 3175 60  0000 C CNN
+F 3 "" H 5000 3175 60  0000 C CNN
+	1    5000 3175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 3050 5000 3050
+Wire Wire Line
+	5000 3050 5000 3175
+Wire Wire Line
+	9500 2250 9500 3575
+Wire Wire Line
+	9500 3575 4675 3575
+Wire Wire Line
+	4675 3575 4675 2950
+Wire Wire Line
+	4675 2950 5050 2950
+Wire Wire Line
+	8325 2250 9500 2250
+Text Notes 6625 3575 0    50   ~ 0
+_EXT-ENABLE
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R19
+U 1 1 5E02CB0C
+P 4500 3300
+F 0 "R19" V 4580 3300 40  0000 C CNN
+F 1 "10k" V 4507 3301 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4430 3300 30  0001 C CNN
+F 3 "~" H 4500 3300 30  0000 C CNN
+	1    4500 3300
+	1    0    0    1   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:3V3-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR018
+U 1 1 5E02CB12
+P 4500 3050
+F 0 "#PWR018" H 4500 3150 40  0001 C CNN
+F 1 "3V3" H 4500 3175 40  0000 C CNN
+F 2 "" H 4500 3050 60  0000 C CNN
+F 3 "" H 4500 3050 60  0000 C CNN
+	1    4500 3050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 3550 4500 3575
+Wire Wire Line
+	4500 3575 4675 3575
+Connection ~ 4675 3575
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue C2
+U 1 1 5E0A31AF
+P 5025 1675
+F 0 "C2" H 5025 1775 40  0000 L CNN
+F 1 "100n" H 5031 1590 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5063 1525 30  0001 C CNN
+F 3 "~" H 5025 1675 60  0000 C CNN
+	1    5025 1675
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR04
+U 1 1 5E0A31B5
+P 5025 1875
+F 0 "#PWR04" H 5025 1875 30  0001 C CNN
+F 1 "GND" H 5025 1805 30  0001 C CNN
+F 2 "" H 5025 1875 60  0000 C CNN
+F 3 "" H 5025 1875 60  0000 C CNN
+	1    5025 1875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5025 1475 5550 1475
+Wire Wire Line
+	5550 1475 5550 1750
+Connection ~ 5550 1475
+Wire Wire Line
+	9025 7975 9025 8125
+Connection ~ 9500 8025
+Wire Wire Line
+	9500 7975 9500 8025
+Text Notes 9800 8650 0    50   ~ 10
+PROG-A \nWRITE-ENB
+Wire Notes Line
+	10225 8475 9800 8475
+Wire Notes Line
+	9800 8475 9800 8675
+Wire Notes Line
+	9800 8675 10225 8675
+Wire Notes Line
+	10225 8675 10225 8475
+Text Notes 9775 10400 0    50   ~ 10
+PROG-B\nWRITE-ENB
+Wire Notes Line
+	10200 10225 9775 10225
+Wire Notes Line
+	9775 10225 9775 10425
+Wire Notes Line
+	9775 10425 10200 10425
+Wire Notes Line
+	10200 10425 10200 10225
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R75
+U 1 1 5E3F31A9
+P 5425 10325
+F 0 "R75" V 5505 10325 40  0000 C CNN
+F 1 "1k" V 5432 10326 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5355 10325 30  0001 C CNN
+F 3 "~" H 5425 10325 30  0000 C CNN
+	1    5425 10325
+	0    -1   -1   0   
+$EndComp
+Text GLabel 4100 3275 2    47   BiDi ~ 0
+MP0
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 5E6B940E
+P 3775 3375
+F 0 "J1" H 4075 3050 50  0000 C CNN
+F 1 "Conn_01x02" H 3900 3125 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3775 3375 50  0001 C CNN
+F 3 "~" H 3775 3375 50  0001 C CNN
+	1    3775 3375
+	-1   0    0    1   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR06
+U 1 1 5E6E3631
+P 4025 3475
+F 0 "#PWR06" H 4025 3475 30  0001 C CNN
+F 1 "GND" H 4025 3405 30  0001 C CNN
+F 2 "" H 4025 3475 60  0000 C CNN
+F 3 "" H 4025 3475 60  0000 C CNN
+	1    4025 3475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4025 3475 4025 3375
+Wire Wire Line
+	3975 3375 4025 3375
+Wire Wire Line
+	4100 3275 3975 3275
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:3V3-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR01
+U 1 1 5E7E9F63
+P 1300 1550
+F 0 "#PWR01" H 1300 1650 40  0001 C CNN
+F 1 "3V3" H 1300 1675 40  0000 C CNN
+F 2 "" H 1300 1550 60  0000 C CNN
+F 3 "" H 1300 1550 60  0000 C CNN
+	1    1300 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 2000 1300 1850
+Text Notes 3200 3350 0    50   ~ 10
+GPIO
+Wire Notes Line
+	3450 3375 3450 3250
+Wire Notes Line
+	3125 3250 3450 3250
+Wire Notes Line
+	3125 3375 3450 3375
+Text Notes 3525 3400 0    59   ~ 0
+MP9\nGND
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR065
+U 1 1 5EAAC2D1
+P 2975 7200
+F 0 "#PWR065" H 2975 7200 30  0001 C CNN
+F 1 "GND" H 2975 7130 30  0001 C CNN
+F 2 "" H 2975 7200 60  0000 C CNN
+F 3 "" H 2975 7200 60  0000 C CNN
+	1    2975 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2975 7200 2975 7150
+Wire Wire Line
+	2975 7150 3025 7150
+Wire Wire Line
+	2025 7150 2425 7150
+Wire Wire Line
+	2025 6950 2425 6950
+Text Notes 12125 10650 0    59   ~ 0
+1
+Text Notes 12225 10675 0    59   ~ 0
+1
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R67
+U 1 1 5EF754A2
+P 2325 8725
+F 0 "R67" V 2405 8725 40  0000 C CNN
+F 1 "100k" V 2332 8726 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2255 8725 30  0001 C CNN
+F 3 "~" H 2325 8725 30  0000 C CNN
+	1    2325 8725
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR099
+U 1 1 5EFA4AFA
+P 2325 8975
+F 0 "#PWR099" H 2325 8975 30  0001 C CNN
+F 1 "GND" H 2325 8905 30  0001 C CNN
+F 2 "" H 2325 8975 60  0000 C CNN
+F 3 "" H 2325 8975 60  0000 C CNN
+	1    2325 8975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6775 7500 6775 8075
+Wire Wire Line
+	6775 8075 7450 8075
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR064
+U 1 1 55397546
+P 7725 6950
+F 0 "#PWR064" H 7725 6950 30  0001 C CNN
+F 1 "GND" H 7725 6880 30  0001 C CNN
+F 2 "" H 7725 6950 60  0000 C CNN
+F 3 "" H 7725 6950 60  0000 C CNN
+	1    7725 6950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR087
+U 1 1 5F332FD4
+P 7450 8600
+F 0 "#PWR087" H 7450 8600 30  0001 C CNN
+F 1 "GND" H 7450 8530 30  0001 C CNN
+F 2 "" H 7450 8600 60  0000 C CNN
+F 3 "" H 7450 8600 60  0000 C CNN
+	1    7450 8600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 8100 7450 8075
+Connection ~ 7450 8075
+Wire Wire Line
+	7450 8075 7750 8075
+Wire Wire Line
+	6575 7500 6575 8000
+Wire Wire Line
+	5275 6550 5525 6550
+Wire Wire Line
+	5525 6650 5275 6650
+Wire Wire Line
+	5275 6750 5525 6750
+Wire Wire Line
+	5275 6850 5525 6850
+Wire Wire Line
+	7725 6550 8000 6550
+Wire Wire Line
+	7725 6650 8000 6650
+Wire Wire Line
+	7725 6750 8000 6750
+Wire Wire Line
+	8000 6850 7725 6850
+Wire Wire Line
+	6275 5050 6275 5300
+Wire Wire Line
+	6375 5300 6375 5050
+Wire Wire Line
+	6475 5050 6475 5300
+Wire Wire Line
+	6575 5050 6575 5300
+Wire Wire Line
+	6375 7500 6375 7775
+Wire Wire Line
+	6275 7500 6275 7775
+Wire Wire Line
+	6175 7500 6175 7775
+Wire Wire Line
+	6675 7500 6675 7775
+Wire Wire Line
+	6975 7500 6975 7750
+Wire Wire Line
+	7075 7500 7075 7750
+Wire Notes Line
+	725  3825 10925 3825
+Wire Notes Line
+	10925 3825 10925 675 
+Wire Notes Line
+	10925 675  725  675 
+Text Notes 5225 950  0    118  Italic 24
+OPTIONAL PART FOR I/O EXTENSION
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:AZ1117-ADJ-regul-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue U6
+U 1 1 5C4D60CB
+P 2900 8475
+F 0 "U6" H 2900 8717 50  0000 C CNN
+F 1 "AZ1117-ADJ" H 2900 8626 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-223-3_TabPin2" H 2900 8725 50  0001 C CIN
+F 3 "https://www.diodes.com/assets/Datasheets/AZ1117.pdf" H 2900 8475 50  0001 C CNN
+	1    2900 8475
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:AZ1117-ADJ-regul-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue U7
+U 1 1 5C4D6257
+P 3950 8475
+F 0 "U7" H 3950 8717 50  0000 C CNN
+F 1 "AZ1117-ADJ" H 3950 8626 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-223-3_TabPin2" H 3950 8725 50  0001 C CIN
+F 3 "https://www.diodes.com/assets/Datasheets/AZ1117.pdf" H 3950 8475 50  0001 C CNN
+	1    3950 8475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 8475 3225 8475
+Wire Wire Line
+	4250 8475 4300 8475
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R68
+U 1 1 5C750F11
+P 2900 9075
+F 0 "R68" V 2975 9075 40  0000 C CNN
+F 1 "680R" V 2907 9076 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2830 9075 30  0001 C CNN
+F 3 "~" H 2900 9075 30  0000 C CNN
+	1    2900 9075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 8775 2900 8825
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR0105
+U 1 1 5C7BB382
+P 3950 9325
+F 0 "#PWR0105" H 3950 9325 30  0001 C CNN
+F 1 "GND" H 3950 9255 30  0001 C CNN
+F 2 "" H 3950 9325 60  0000 C CNN
+F 3 "" H 3950 9325 60  0000 C CNN
+	1    3950 9325
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R69
+U 1 1 5C7BB388
+P 3950 9075
+F 0 "R69" V 4025 9075 40  0000 C CNN
+F 1 "360R" V 3957 9076 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 3880 9075 30  0001 C CNN
+F 3 "~" H 3950 9075 30  0000 C CNN
+	1    3950 9075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 8775 3950 8825
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R66
+U 1 1 5C7F090F
+P 4300 8725
+F 0 "R66" V 4225 8725 40  0000 C CNN
+F 1 "220R" V 4307 8726 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4230 8725 30  0001 C CNN
+F 3 "~" H 4300 8725 30  0000 C CNN
+	1    4300 8725
+	1    0    0    -1  
+$EndComp
+Connection ~ 4300 8475
+Wire Wire Line
+	4300 8475 4550 8475
+Wire Wire Line
+	4300 8975 4300 9000
+Wire Wire Line
+	4300 9000 4175 9000
+Wire Wire Line
+	4175 9000 4175 8825
+Wire Wire Line
+	3950 8825 4175 8825
+Connection ~ 3950 8825
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R65
+U 1 1 5C90052A
+P 3225 8725
+F 0 "R65" V 3150 8725 40  0000 C CNN
+F 1 "220R" V 3232 8726 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 3155 8725 30  0001 C CNN
+F 3 "~" H 3225 8725 30  0000 C CNN
+	1    3225 8725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3225 8975 3225 9000
+Wire Wire Line
+	3225 9000 3100 9000
+Wire Wire Line
+	3100 9000 3100 8825
+Wire Wire Line
+	2900 8825 3100 8825
+Connection ~ 2900 8825
+Connection ~ 3225 8475
+Wire Wire Line
+	3225 8475 3400 8475
+$Comp
+L Mechanical:MountingHole_Pad MH1
+U 1 1 5C9E6214
+P 15075 8925
+F 0 "MH1" V 15029 9075 50  0000 L CNN
+F 1 "MountingHole_Pad" V 15120 9075 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via" H 15075 8925 50  0001 C CNN
+F 3 "~" H 15075 8925 50  0001 C CNN
+	1    15075 8925
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad MH2
+U 1 1 5CA1EC6E
+P 15075 9150
+F 0 "MH2" V 15029 9300 50  0000 L CNN
+F 1 "MountingHole_Pad" V 15120 9300 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H 15075 9150 50  0001 C CNN
+F 3 "~" H 15075 9150 50  0001 C CNN
+	1    15075 9150
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad MH3
+U 1 1 5CA56CF0
+P 15075 9400
+F 0 "MH3" V 15029 9550 50  0000 L CNN
+F 1 "MountingHole_Pad" V 15120 9550 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H 15075 9400 50  0001 C CNN
+F 3 "~" H 15075 9400 50  0001 C CNN
+	1    15075 9400
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad MH4
+U 1 1 5CA8ED73
+P 15075 9675
+F 0 "MH4" V 15029 9825 50  0000 L CNN
+F 1 "MountingHole_Pad" V 15120 9825 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H 15075 9675 50  0001 C CNN
+F 3 "~" H 15075 9675 50  0001 C CNN
+	1    15075 9675
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Q_PNP_BCE Q8
+U 1 1 5CDE507B
+P 6475 8475
+F 0 "Q8" V 6725 8450 50  0000 C CNN
+F 1 "KTA1040D-Y-RTF/P" V 6800 8100 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:TO-252-2" H 6675 8575 50  0001 C CNN
+F 3 "~" H 6475 8475 50  0001 C CNN
+	1    6475 8475
+	0    -1   1    0   
+$EndComp
+Connection ~ 6275 8575
+Connection ~ 6475 8275
+Wire Wire Line
+	2825 4525 2875 4525
+Wire Wire Line
+	7425 1050 9500 1050
+$Comp
+L Connector_Generic:Conn_02x08_Odd_Even J10
+U 1 1 5C733C7A
+P 10350 2125
+F 0 "J10" H 10400 2642 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 10400 2551 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x08_Pitch2.54mm" H 10350 2125 50  0001 C CNN
+F 3 "~" H 10350 2125 50  0001 C CNN
+	1    10350 2125
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR0126
+U 1 1 5C734699
+P 10725 2725
+F 0 "#PWR0126" H 10725 2725 30  0001 C CNN
+F 1 "GND" H 10725 2655 30  0001 C CNN
+F 2 "" H 10725 2725 60  0000 C CNN
+F 3 "" H 10725 2725 60  0000 C CNN
+	1    10725 2725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10725 2725 10725 2525
+Wire Wire Line
+	10725 1825 10650 1825
+Wire Wire Line
+	10650 1925 10725 1925
+Connection ~ 10725 1925
+Wire Wire Line
+	10725 1925 10725 1825
+Wire Wire Line
+	10650 2025 10725 2025
+Connection ~ 10725 2025
+Wire Wire Line
+	10725 2025 10725 1925
+Wire Wire Line
+	10650 2125 10725 2125
+Connection ~ 10725 2125
+Wire Wire Line
+	10725 2125 10725 2025
+Wire Wire Line
+	10650 2225 10725 2225
+Connection ~ 10725 2225
+Wire Wire Line
+	10725 2225 10725 2125
+Wire Wire Line
+	10650 2325 10725 2325
+Connection ~ 10725 2325
+Wire Wire Line
+	10725 2325 10725 2225
+Wire Wire Line
+	10650 2525 10725 2525
+Connection ~ 10725 2525
+Text GLabel 9850 2425 0    47   Input ~ 0
+SCL
+Text GLabel 9850 2325 0    47   Input ~ 0
+SDA
+Wire Wire Line
+	9850 2325 10150 2325
+Wire Wire Line
+	9850 2425 10150 2425
+Text GLabel 9925 1825 0    47   Input ~ 0
++12V
+Wire Wire Line
+	9925 1825 10150 1825
+Text Label 6750 2350 0    50   ~ 0
+DAC_DATA2
+Text Label 6750 2450 0    50   ~ 0
+DAC_BCLK
+Text Label 6750 2550 0    50   ~ 0
+DAC_LRCK
+Text Label 6750 2650 0    50   ~ 0
+DAC_MCLK
+Text GLabel 10100 2025 0    47   Input ~ 0
+DAC_DATA2
+Text GLabel 9875 1925 0    47   Input ~ 0
+MP1
+Wire Wire Line
+	9875 1925 10150 1925
+Wire Wire Line
+	10100 2025 10150 2025
+Text GLabel 10075 2125 0    47   Input ~ 0
+DAC_BCLK
+Text GLabel 10075 2225 0    47   Input ~ 0
+DAC_LRCK
+Text GLabel 10075 2525 0    47   Input ~ 0
+DAC_MCLK
+Wire Wire Line
+	10075 2525 10150 2525
+Text Notes 9625 1400 0    50   ~ 10
+FreeDSP Expansion Connector
+Wire Notes Line
+	9575 1425 10850 1425
+Wire Notes Line
+	10850 1425 10850 1300
+Wire Notes Line
+	9575 1300 10850 1300
+Wire Notes Line
+	9575 1425 9575 1300
+Wire Wire Line
+	10075 2125 10150 2125
+Wire Wire Line
+	10075 2225 10150 2225
+Wire Wire Line
+	10725 2325 10725 2525
+Wire Wire Line
+	10650 2425 10825 2425
+Wire Wire Line
+	10825 2425 10825 3575
+Wire Wire Line
+	10825 3575 9500 3575
+Connection ~ 9500 3575
+Connection ~ 4550 5850
+Wire Wire Line
+	4550 5175 4550 5850
+Wire Wire Line
+	4550 5850 4550 6050
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R76
+U 1 1 5C564213
+P 5050 5600
+F 0 "R76" V 5130 5600 40  0000 C CNN
+F 1 "0R" V 5057 5601 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4980 5600 30  0001 C CNN
+F 3 "~" H 5050 5600 30  0000 C CNN
+	1    5050 5600
+	-1   0    0    1   
+$EndComp
+Connection ~ 5050 5850
+$Comp
+L power:GNDS #PWR0127
+U 1 1 5C61ED9D
+P 5225 5375
+F 0 "#PWR0127" H 5225 5125 50  0001 C CNN
+F 1 "GNDS" H 5225 5225 50  0000 C CNN
+F 2 "" H 5225 5375 50  0001 C CNN
+F 3 "" H 5225 5375 50  0001 C CNN
+	1    5225 5375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 5350 5225 5350
+Wire Wire Line
+	5225 5350 5225 5375
+Wire Wire Line
+	5650 5350 5650 5425
+Wire Wire Line
+	13675 1875 13575 1875
+Connection ~ 13575 1875
+Wire Wire Line
+	13550 3800 13675 3800
+Wire Wire Line
+	13650 5850 13550 5850
+Connection ~ 13550 5850
+Wire Wire Line
+	13650 7900 13550 7900
+Connection ~ 13550 7900
+Wire Wire Line
+	3650 8475 3650 8525
+Wire Wire Line
+	3650 8825 3650 8875
+Wire Wire Line
+	4550 8475 4550 8525
+Wire Wire Line
+	4550 8825 4550 8875
+Wire Wire Line
+	6900 9400 6900 9475
+Wire Wire Line
+	6900 9775 6900 9825
+Wire Wire Line
+	2225 4425 2225 4300
+Wire Wire Line
+	2225 4300 2875 4300
+Wire Wire Line
+	2875 4300 2875 4525
+Connection ~ 2875 4525
+Wire Wire Line
+	2875 4525 3400 4525
+Text Notes 9725 7275 0    59   ~ 0
+Note:\nUse serial EEPROM which has capacity \nmore than or equal 128k bits.
+Text Notes 8575 10250 0    50   ~ 10
+ROM-A
+Text Notes 8550 10125 0    50   ~ 10
+ROM-B
+Text Notes 1850 3400 0    59   ~ 0
+(AUX-ADC1)
+Text Notes 1050 3400 0    59   ~ 0
+(AUX-ADC2)
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue C52
+U 1 1 5C789576
+P 13300 7525
+F 0 "C52" V 13350 7575 40  0000 L CNN
+F 1 "100n" V 13250 7575 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 13338 7375 30  0001 C CNN
+F 3 "~" H 13300 7525 60  0000 C CNN
+	1    13300 7525
+	0    1    -1   0   
+$EndComp
+Connection ~ 13100 7525
+Wire Wire Line
+	13100 7525 13100 7600
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR0130
+U 1 1 5C78B619
+P 13625 7600
+F 0 "#PWR0130" H 13625 7600 30  0001 C CNN
+F 1 "GND" H 13625 7530 30  0001 C CNN
+F 2 "" H 13625 7600 60  0000 C CNN
+F 3 "" H 13625 7600 60  0000 C CNN
+	1    13625 7600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13500 7525 13625 7525
+Wire Wire Line
+	13625 7525 13625 7600
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue C53
+U 1 1 5C7CE0D7
+P 13325 3475
+F 0 "C53" V 13375 3525 40  0000 L CNN
+F 1 "100n" V 13275 3525 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 13363 3325 30  0001 C CNN
+F 3 "~" H 13325 3475 60  0000 C CNN
+	1    13325 3475
+	0    1    -1   0   
+$EndComp
+Connection ~ 13125 3475
+Wire Wire Line
+	13125 3475 13125 3500
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR0129
+U 1 1 5C7CF694
+P 13625 3525
+F 0 "#PWR0129" H 13625 3525 30  0001 C CNN
+F 1 "GND" H 13625 3455 30  0001 C CNN
+F 2 "" H 13625 3525 60  0000 C CNN
+F 3 "" H 13625 3525 60  0000 C CNN
+	1    13625 3525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13525 3475 13625 3475
+Wire Wire Line
+	13625 3475 13625 3525
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue C50
+U 1 1 5C8557DA
+P 2650 5375
+F 0 "C50" V 2700 5425 40  0000 L CNN
+F 1 "100n" V 2600 5425 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2688 5225 30  0001 C CNN
+F 3 "~" H 2650 5375 60  0000 C CNN
+	1    2650 5375
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2450 5375 2450 5475
+Connection ~ 2450 5375
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR043
+U 1 1 5C91E2EC
+P 2950 5425
+F 0 "#PWR043" H 2950 5425 30  0001 C CNN
+F 1 "GND" H 2950 5355 30  0001 C CNN
+F 2 "" H 2950 5425 60  0000 C CNN
+F 3 "" H 2950 5425 60  0000 C CNN
+	1    2950 5425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 5375 2950 5375
+Wire Wire Line
+	2950 5375 2950 5425
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue C51
+U 1 1 5C967F08
+P 8875 5500
+F 0 "C51" V 8925 5550 40  0000 L CNN
+F 1 "100n" V 8825 5550 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8913 5350 30  0001 C CNN
+F 3 "~" H 8875 5500 60  0000 C CNN
+	1    8875 5500
+	0    1    -1   0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR0128
+U 1 1 5C967F0E
+P 9175 5550
+F 0 "#PWR0128" H 9175 5550 30  0001 C CNN
+F 1 "GND" H 9175 5480 30  0001 C CNN
+F 2 "" H 9175 5550 60  0000 C CNN
+F 3 "" H 9175 5550 60  0000 C CNN
+	1    9175 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9075 5500 9175 5500
+Wire Wire Line
+	9175 5500 9175 5550
+Wire Wire Line
+	8125 5550 8125 5500
+Wire Wire Line
+	8125 5500 8625 5500
+Wire Wire Line
+	8625 5475 8625 5500
+Connection ~ 8625 5500
+Wire Wire Line
+	8625 5500 8675 5500
+Wire Wire Line
+	8625 5550 8625 5500
+Text Notes 13950 8500 0    50   ~ 0
+or 2SD2704KT146
+Text Notes 13900 6475 0    50   ~ 0
+or 2SD2704KT146
+Text Notes 14025 4425 0    50   ~ 0
+or 2SD2704KT146
+Text Notes 13950 2450 0    50   ~ 0
+or 2SD2704KT146
+Text Notes 6950 9450 0    50   ~ 10
+RESERVE MUTE\nPOWER CAP
+Text Notes 5875 10625 0    50   Italic 0
+Use Si Switching Diode for D2 and D3\nShotkey is NOT suitable
+Text Notes 11900 775  0    50   ~ 0
+※ Marked Capacitors are Panasonic “ECHU” Film-Cap for it’s Hi-Fi Sound Characteristics.
+Text Notes 12225 1800 0    50   ~ 0
+※
+Text Notes 12950 1400 0    50   ~ 0
+※
+Text Notes 12525 2350 0    50   ~ 0
+※
+Text Notes 12700 3325 0    50   ~ 0
+※
+Text Notes 12575 4250 0    50   ~ 0
+※
+Text Notes 12250 3725 0    50   ~ 0
+※
+Text Notes 12925 5375 0    50   ~ 0
+※
+Text Notes 12200 5775 0    50   ~ 0
+※
+Text Notes 12525 6300 0    50   ~ 0
+※
+Text Notes 12700 7425 0    50   ~ 0
+※
+Text Notes 12225 7825 0    50   ~ 0
+※
+Text Notes 12550 8350 0    50   ~ 0
+※
+$Comp
+L Device:LED_ALT D5
+U 1 1 5CA08302
+P 1575 10175
+F 0 "D5" V 1575 10375 50  0000 R CNN
+F 1 "LED_RED" V 1500 10600 50  0000 R CNN
+F 2 "LEDs:LED_0603_HandSoldering" H 1575 10175 50  0001 C CNN
+F 3 "~" H 1575 10175 50  0001 C CNN
+	1    1575 10175
+	0    1    -1   0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R78
+U 1 1 5CA12D5A
+P 1850 9950
+F 0 "R78" V 1930 9950 40  0000 C CNN
+F 1 "1k" V 1857 9951 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 1780 9950 30  0001 C CNN
+F 3 "~" H 1850 9950 30  0000 C CNN
+	1    1850 9950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR0134
+U 1 1 5CA17072
+P 1575 10375
+F 0 "#PWR0134" H 1575 10375 30  0001 C CNN
+F 1 "GND" H 1575 10305 30  0001 C CNN
+F 2 "" H 1575 10375 60  0000 C CNN
+F 3 "" H 1575 10375 60  0000 C CNN
+	1    1575 10375
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1575 10325 1575 10375
+Wire Wire Line
+	1575 10025 1575 9950
+Wire Wire Line
+	1575 9950 1600 9950
+Wire Wire Line
+	2100 9950 2125 9950
+Wire Wire Line
+	2125 9950 2125 9900
+Text Notes 950  10250 0    50   ~ 10
+POWER\nINDICATOR
+Wire Notes Line
+	1375 10275 1375 10075
+Wire Notes Line
+	1375 10075 900  10075
+Wire Notes Line
+	900  10075 900  10275
+Wire Notes Line
+	900  10275 1375 10275
+$Comp
+L power:+5V #PWR033
+U 1 1 5CC7A2D5
+P 2125 9900
+F 0 "#PWR033" H 2125 9750 50  0001 C CNN
+F 1 "+5V" H 2125 10040 50  0000 C CNN
+F 2 "" H 2125 9900 60  0000 C CNN
+F 3 "" H 2125 9900 60  0000 C CNN
+	1    2125 9900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR059
+U 1 1 5CBB6117
+P 3800 9775
+F 0 "#PWR059" H 3800 9625 50  0001 C CNN
+F 1 "+12V" H 3800 9915 50  0000 C CNN
+F 2 "" H 3800 9775 60  0000 C CNN
+F 3 "" H 3800 9775 60  0000 C CNN
+	1    3800 9775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7002 Q2
+U 1 1 5CC00BED
+P 4100 10525
+F 0 "Q2" H 3775 10750 50  0000 L CNN
+F 1 "AO3400A" H 3775 10675 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 4300 10450 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 4100 10525 50  0001 L CNN
+	1    4100 10525
+	1    0    0    -1  
+$EndComp
+$Comp
+L OPL_Inductor:SMD-INDUCTOR-10UH-225MA-10%_0806_ L1
+U 1 1 5CC07D19
+P 4000 9775
+F 0 "L1" H 3975 9850 45  0000 C CNN
+F 1 "CMI321609X100KT" H 3775 9725 45  0000 C CNN
+F 2 "Inductors:Inductor_1212" H 3425 9625 45  0001 C CNN
+F 3 "" H 4000 9775 60  0001 C CNN
+F 4 "LQH2MCN100K02L" H 4030 9925 20  0001 C CNN "MPN"
+F 5 "303010042" H 4030 9925 20  0001 C CNN "SKU"
+	1    4000 9775
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R70
+U 1 1 5CCA976F
+P 4200 10075
+F 0 "R70" V 4280 10075 40  0000 C CNN
+F 1 "1k" V 4207 10076 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4130 10075 30  0001 C CNN
+F 3 "~" H 4200 10075 30  0000 C CNN
+	1    4200 10075
+	-1   0    0    1   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue C48
+U 1 1 5CD980AF
+P 4450 9975
+F 0 "C48" H 4275 10125 40  0000 L CNN
+F 1 "10uF" H 4275 10075 40  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 4488 9825 30  0001 C CNN
+F 3 "~" H 4450 9975 60  0000 C CNN
+	1    4450 9975
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 9775 4450 9775
+Wire Wire Line
+	4200 9825 4200 9775
+Connection ~ 4200 9775
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR0104
+U 1 1 5CE75C70
+P 3675 10850
+F 0 "#PWR0104" H 3675 10850 30  0001 C CNN
+F 1 "GND" H 3675 10780 30  0001 C CNN
+F 2 "" H 3675 10850 60  0000 C CNN
+F 3 "" H 3675 10850 60  0000 C CNN
+	1    3675 10850
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue C54
+U 1 1 5CEC1CC5
+P 4575 10325
+F 0 "C54" V 4775 10275 40  0000 L CNN
+F 1 "2.2u" V 4700 10275 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4613 10175 30  0001 C CNN
+F 3 "~" H 4575 10325 60  0000 C CNN
+	1    4575 10325
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4375 10325 4200 10325
+Connection ~ 4200 10325
+Wire Wire Line
+	4775 10325 4825 10325
+Wire Wire Line
+	4825 10375 4825 10325
+Connection ~ 4825 10325
+Wire Wire Line
+	4825 10325 4875 10325
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR014
+U 1 1 5D03A595
+P 2900 9325
+F 0 "#PWR014" H 2900 9325 30  0001 C CNN
+F 1 "GND" H 2900 9255 30  0001 C CNN
+F 2 "" H 2900 9325 60  0000 C CNN
+F 3 "" H 2900 9325 60  0000 C CNN
+	1    2900 9325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4825 10675 4825 10725
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue C55
+U 1 1 5D0D97DA
+P 5175 10525
+F 0 "C55" H 5175 10625 40  0000 L CNN
+F 1 "2.2u" H 5181 10440 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5213 10375 30  0001 C CNN
+F 3 "~" H 5175 10525 60  0000 C CNN
+	1    5175 10525
+	-1   0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR0102
+U 1 1 5D0D97E4
+P 5675 10725
+F 0 "#PWR0102" H 5675 10725 30  0001 C CNN
+F 1 "GND" H 5675 10655 30  0001 C CNN
+F 2 "" H 5675 10725 60  0000 C CNN
+F 3 "" H 5675 10725 60  0000 C CNN
+	1    5675 10725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 10725 4450 10725
+Wire Wire Line
+	4450 10725 4450 10175
+Wire Wire Line
+	4450 10725 4825 10725
+Connection ~ 4450 10725
+Wire Wire Line
+	4825 10725 5175 10725
+Connection ~ 4825 10725
+Wire Wire Line
+	3675 10800 3675 10850
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R80
+U 1 1 5D3D360F
+P 3925 10800
+F 0 "R80" V 4005 10800 40  0000 C CNN
+F 1 "0R" V 3932 10801 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 3855 10800 30  0001 C CNN
+F 3 "~" H 3925 10800 30  0000 C CNN
+	1    3925 10800
+	0    1    1    0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R79
+U 1 1 5D5127CF
+P 3525 10525
+F 0 "R79" V 3605 10525 40  0000 C CNN
+F 1 "1k" V 3532 10526 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 3455 10525 30  0001 C CNN
+F 3 "~" H 3525 10525 30  0000 C CNN
+	1    3525 10525
+	0    -1   1    0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue C56
+U 1 1 5D5B8F27
+P 5675 10525
+F 0 "C56" H 5675 10625 40  0000 L CNN
+F 1 "2.2u" H 5700 10425 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5713 10375 30  0001 C CNN
+F 3 "~" H 5675 10525 60  0000 C CNN
+	1    5675 10525
+	-1   0    0    1   
+$EndComp
+Connection ~ 5175 10325
+Text Label 7000 10325 2    50   ~ 0
+MUTE
+Wire Wire Line
+	13725 8200 13725 8550
+Wire Wire Line
+	13100 8550 13725 8550
+Wire Wire Line
+	13675 6125 13675 6475
+Wire Wire Line
+	13775 4100 13775 4550
+Wire Wire Line
+	13175 4550 13775 4550
+Wire Wire Line
+	13725 2150 13725 2575
+Wire Wire Line
+	5375 9450 5375 9400
+Wire Wire Line
+	5375 9400 5700 9400
+Connection ~ 5700 9400
+Wire Wire Line
+	4175 10800 4200 10800
+Wire Wire Line
+	4200 10800 4200 10725
+Connection ~ 4200 10725
+Wire Wire Line
+	6650 10325 6650 10150
+Text GLabel 3150 10525 0    47   Input ~ 0
+MP10
+Wire Wire Line
+	3150 10525 3275 10525
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue C57
+U 1 1 5EDEC82D
+P 14775 9150
+F 0 "C57" V 14825 9200 40  0000 L CNN
+F 1 "100n" V 14725 9200 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 14813 9000 30  0001 C CNN
+F 3 "~" H 14775 9150 60  0000 C CNN
+	1    14775 9150
+	0    1    -1   0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue C58
+U 1 1 5EE3B2D4
+P 14775 9400
+F 0 "C58" V 14825 9450 40  0000 L CNN
+F 1 "100n" V 14725 9450 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 14813 9250 30  0001 C CNN
+F 3 "~" H 14775 9400 60  0000 C CNN
+	1    14775 9400
+	0    1    -1   0   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue C59
+U 1 1 5EE896A2
+P 14775 9675
+F 0 "C59" V 14825 9725 40  0000 L CNN
+F 1 "100n" V 14725 9725 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 14813 9525 30  0001 C CNN
+F 3 "~" H 14775 9675 60  0000 C CNN
+	1    14775 9675
+	0    1    -1   0   
+$EndComp
+Connection ~ 14575 9150
+Wire Wire Line
+	14575 9150 14575 9400
+Connection ~ 14575 9400
+Wire Wire Line
+	14575 9400 14575 9675
+Connection ~ 14575 9675
+Wire Wire Line
+	14575 9675 14575 9875
+Wire Wire Line
+	14575 8925 14575 9150
+Wire Wire Line
+	14575 8925 14975 8925
+$Comp
+L Diode:1N4148W D3
+U 1 1 5F69DA8A
+P 5975 9400
+F 0 "D3" H 5975 9183 50  0000 C CNN
+F 1 "1N4148W" H 5975 9274 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-123" H 5975 9225 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5975 9400 50  0001 C CNN
+	1    5975 9400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D_Schottky D6
+U 1 1 5F79E19A
+P 5025 10325
+F 0 "D6" H 5025 10541 50  0000 C CNN
+F 1 "RB160M-30" H 5025 10450 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-123" H 5025 10325 50  0001 C CNN
+F 3 "~" H 5025 10325 50  0001 C CNN
+	1    5025 10325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky D7
+U 1 1 5F7A2E82
+P 4825 10525
+F 0 "D7" V 4775 10850 50  0000 R CNN
+F 1 "RB160M-30" V 4700 10850 50  0000 R CNN
+F 2 "Diodes_SMD:D_SOD-123" H 4825 10525 50  0001 C CNN
+F 3 "~" H 4825 10525 50  0001 C CNN
+	1    4825 10525
+	0    -1   -1   0   
+$EndComp
+Text Notes 4425 11050 0    50   ~ 10
+CHARGE\nPUMP
+Text Notes 2575 10575 0    50   ~ 0
+(48kHz)
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue C60
+U 1 1 5FADCFE6
+P 5075 6750
+F 0 "C60" H 5075 6850 40  0000 L CNN
+F 1 "100n" H 5081 6665 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5113 6600 30  0001 C CNN
+F 3 "~" H 5075 6750 60  0000 C CNN
+	1    5075 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:3V3-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR0123
+U 1 1 5FADFD0B
+P 5075 6550
+F 0 "#PWR0123" H 5075 6650 40  0001 C CNN
+F 1 "3V3" H 5075 6675 40  0000 C CNN
+F 2 "" H 5075 6550 60  0000 C CNN
+F 3 "" H 5075 6550 60  0000 C CNN
+	1    5075 6550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR0124
+U 1 1 5FB31F2C
+P 5075 6950
+F 0 "#PWR0124" H 5075 6950 30  0001 C CNN
+F 1 "GND" H 5075 6880 30  0001 C CNN
+F 2 "" H 5075 6950 60  0000 C CNN
+F 3 "" H 5075 6950 60  0000 C CNN
+	1    5075 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R81
+U 1 1 5FD7B199
+P 8325 6650
+F 0 "R81" V 8425 6650 40  0000 C CNN
+F 1 "100R" V 8332 6651 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 8255 6650 30  0001 C CNN
+F 3 "~" H 8325 6650 30  0000 C CNN
+	1    8325 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 2650 5050 2650
+Text GLabel 4350 2050 0    47   Input ~ 0
+MP6
+Wire Wire Line
+	4000 2150 5050 2150
+Text Label 3125 1400 0    50   ~ 0
+MUTE
+Wire Wire Line
+	4475 7375 4475 7450
+Wire Wire Line
+	4475 7450 4675 7450
+Wire Wire Line
+	4475 7075 4475 6925
+Wire Wire Line
+	4475 6925 4675 6925
+Wire Wire Line
+	4675 6850 4675 6925
+Connection ~ 4675 6925
+$Comp
+L Device:D_ALT D1
+U 1 1 60A09B09
+P 3475 1400
+F 0 "D1" H 3475 1184 50  0000 C CNN
+F 1 "1N4148W" H 3475 1275 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-123" H 3475 1400 50  0001 C CNN
+F 3 "~" H 3475 1400 50  0001 C CNN
+	1    3475 1400
+	-1   0    0    1   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R4
+U 1 1 60A11AC2
+P 4000 1850
+F 0 "R4" V 4080 1850 40  0000 C CNN
+F 1 "10k" V 4000 1850 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 3930 1850 30  0001 C CNN
+F 3 "~" H 4000 1850 30  0000 C CNN
+	1    4000 1850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3125 1400 3325 1400
+Wire Wire Line
+	4000 2100 4000 2150
+Wire Wire Line
+	4000 2150 4000 2200
+Connection ~ 4000 2150
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR0131
+U 1 1 60E1E2FB
+P 4000 2650
+F 0 "#PWR0131" H 4000 2650 30  0001 C CNN
+F 1 "GND" H 4000 2580 30  0001 C CNN
+F 2 "" H 4000 2650 60  0000 C CNN
+F 3 "" H 4000 2650 60  0000 C CNN
+	1    4000 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 2600 4000 2650
+$Comp
+L Transistor_FET:2N7002 Q4
+U 1 1 60EC798D
+P 3900 2400
+F 0 "Q4" H 3650 2675 50  0000 L CNN
+F 1 "AO3400A" H 3650 2600 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 4100 2325 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 3900 2400 50  0001 L CNN
+	1    3900 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 1600 4000 1475
+Wire Wire Line
+	4000 1475 5025 1475
+Connection ~ 5025 1475
+Wire Wire Line
+	3625 1400 3625 2400
+Wire Wire Line
+	3625 2400 3700 2400
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R82
+U 1 1 6111A8A1
+P 3625 2650
+F 0 "R82" V 3705 2650 40  0000 C CNN
+F 1 "100K" V 3632 2651 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 3555 2650 30  0001 C CNN
+F 3 "~" H 3625 2650 30  0000 C CNN
+	1    3625 2650
+	1    0    0    -1  
+$EndComp
+Connection ~ 3625 2400
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR0132
+U 1 1 6116EFBD
+P 3625 2900
+F 0 "#PWR0132" H 3625 2900 30  0001 C CNN
+F 1 "GND" H 3625 2830 30  0001 C CNN
+F 2 "" H 3625 2900 60  0000 C CNN
+F 3 "" H 3625 2900 60  0000 C CNN
+	1    3625 2900
+	1    0    0    -1  
+$EndComp
+Text Notes 5600 10250 0    50   ~ 0
+-11V
+Text Notes 6075 8550 0    50   ~ 0
++1.5V
+$Comp
+L Device:D_Schottky D8
+U 1 1 5CBBD023
+P 1300 1700
+F 0 "D8" V 1325 1600 50  0000 R CNN
+F 1 "RB160M-30" V 1200 1625 50  0000 R CNN
+F 2 "Diodes_SMD:D_SOD-123" H 1300 1700 50  0001 C CNN
+F 3 "~" H 1300 1700 50  0001 C CNN
+	1    1300 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1300 2000 1300 2700
+Wire Wire Line
+	2100 2000 1300 2000
+Wire Wire Line
+	2100 2000 2100 2675
+Connection ~ 1300 2000
+Text Notes 1100 2025 0    50   ~ 0
+3.0V
+Text Notes 1975 1900 0    50   ~ 0
+Maximum AUX-ADC \nInput Voltage is 3.0V
+Text Notes 5025 11025 0    50   Italic 0
+Use Shotkey  Diode\nfor D4,D6 and D7.
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R83
+U 1 1 5CC01F59
+P 5925 10325
+F 0 "R83" V 6005 10325 40  0000 C CNN
+F 1 "10k" V 5932 10326 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5855 10325 30  0001 C CNN
+F 3 "~" H 5925 10325 30  0000 C CNN
+	1    5925 10325
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5675 10325
+$Comp
+L Device:D_Schottky D4
+U 1 1 5CE0BDAA
+P 6500 9400
+F 0 "D4" H 6450 9175 50  0000 C CNN
+F 1 "RB160M-30" H 6475 9275 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-123" H 6500 9400 50  0001 C CNN
+F 3 "~" H 6500 9400 50  0001 C CNN
+	1    6500 9400
+	-1   0    0    1   
+$EndComp
+Connection ~ 6650 9400
+Wire Wire Line
+	3775 10525 3900 10525
+Wire Notes Line
+	6950 9275 7525 9275
+Wire Notes Line
+	7525 9450 6950 9450
+Wire Notes Line
+	6950 9450 6950 9275
+Wire Notes Line
+	7525 9200 7525 9375
+Connection ~ 4475 7450
+Wire Wire Line
+	3625 7450 3750 7450
+Wire Wire Line
+	3625 7150 3625 7450
+Connection ~ 3625 7450
+Wire Wire Line
+	2025 7450 3625 7450
+$Comp
+L fdsp_mechanical:SW_PUSH JP3
+U 1 1 566A6CA5
+P 3325 7150
+F 0 "JP3" H 3325 7300 50  0000 C CNN
+F 1 "TACT_ANGLE_PUSH" H 3300 7375 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx83-2LFS" H 3325 7150 60  0001 C CNN
+F 3 "" H 3325 7150 60  0000 C CNN
+	1    3325 7150
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	3125 6875 3550 6875
+Wire Notes Line
+	3550 6875 3550 6750
+Wire Notes Line
+	3550 6750 3125 6750
+Wire Notes Line
+	3125 6750 3125 6875
+$Comp
+L Diode:1N4148W D2
+U 1 1 5D662DE7
+P 4475 7225
+F 0 "D2" H 4475 7008 50  0000 C CNN
+F 1 "1N4148W" H 4475 7099 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-123" H 4475 7050 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4475 7225 50  0001 C CNN
+	1    4475 7225
+	0    1    1    0   
+$EndComp
+Text Notes 8525 10925 0    59   ~ 0
+Note:\nPlace jumper JP4 and JP5 when programing EEPROM(Default)\nIf you need to protect code(s), remove them.\n
+Wire Notes Line
+	4425 10875 4425 11050
+Wire Notes Line
+	4425 11050 4750 11050
+Wire Notes Line
+	4750 11050 4750 10875
+Wire Notes Line
+	4750 10875 4425 10875
+Text Notes 1450 1925 0    50   Italic 0
+(Shotkey)
+Text Notes 3175 1125 0    50   Italic 0
+Use Si Switching Diode for D1\nShotkey is NOT suitable
+Text Notes 875  4825 0    50   ~ 0
+(RIGHT)
+Text Notes 925  6075 0    50   ~ 0
+(LEFT)
+Text Notes 15425 4000 0    50   ~ 0
+(PRI-RIGHT)
+Text Notes 15450 2050 0    50   ~ 0
+(PRI-LEFT)
+Text Notes 15425 8075 0    50   ~ 0
+(2nd RIGHT)
+Text Notes 15425 6050 0    50   ~ 0
+(2nd LEFT)
+$Sheet
+S 11500 9150 1800 475 
+U 5F35A747
+F0 "DAC_USBi_Part_sch" 50
+F1 "DAC_USBi_Part_sch.sch" 50
+$EndSheet
+Wire Notes Line
+	3075 3800 3075 650 
+Wire Notes Line
+	3125 3375 3125 3250
+Text GLabel 2425 6950 2    47   Output ~ 0
+SCL
+Text GLabel 2425 7150 2    47   BiDi ~ 0
+SDA
+Text GLabel 5025 7450 2    51   Input ~ 0
+BRD_~RESET
+Wire Wire Line
+	5025 7450 4850 7450
+Connection ~ 4850 7450
+Text GLabel 7000 10325 2    47   Output ~ 0
+MUTE
+Text Label 7875 8125 0    60   ~ 0
+SCL
+Wire Wire Line
+	9025 8125 9800 8125
+Connection ~ 8875 8225
+Wire Wire Line
+	8875 8225 9800 8225
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R59
+U 1 1 60792EBC
+P 7450 7700
+F 0 "R59" V 7530 7700 40  0000 C CNN
+F 1 "NOP" V 7457 7701 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 7380 7700 30  0001 C CNN
+F 3 "~" H 7450 7700 30  0000 C CNN
+	1    7450 7700
+	1    0    0    1   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:3V3-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR015
+U 1 1 60792EC6
+P 7450 7450
+F 0 "#PWR015" H 7450 7550 40  0001 C CNN
+F 1 "3V3" H 7450 7575 40  0000 C CNN
+F 2 "" H 7450 7450 60  0000 C CNN
+F 3 "" H 7450 7450 60  0000 C CNN
+	1    7450 7450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6875 7950 7450 7950
+Wire Wire Line
+	6875 7500 6875 7950
+Connection ~ 7450 7950
+Wire Wire Line
+	7450 7950 7750 7950
+Text GLabel 6375 7775 3    47   Output ~ 0
+MP10
+Text GLabel 6675 7775 3    47   Output ~ 0
+MP11
+$Comp
+L power:GNDS #PWR0141
+U 1 1 5F393DA1
+P 7575 5500
+F 0 "#PWR0141" H 7575 5250 50  0001 C CNN
+F 1 "GNDS" H 7580 5327 50  0000 C CNN
+F 2 "" H 7575 5500 50  0001 C CNN
+F 3 "" H 7575 5500 50  0001 C CNN
+	1    7575 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5F652852
+P 13750 8975
+F 0 "H1" H 13850 9050 50  0000 L CNN
+F 1 "MountingHole" H 13850 8950 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.7mm_M2.5" H 13750 8975 50  0001 C CNN
+F 3 "~" H 13750 8975 50  0001 C CNN
+	1    13750 8975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5F6536FE
+P 13750 9200
+F 0 "H2" H 13850 9250 50  0000 L CNN
+F 1 "MountingHole" H 13850 9200 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.7mm_M2.5" H 13750 9200 50  0001 C CNN
+F 3 "~" H 13750 9200 50  0001 C CNN
+	1    13750 9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5F654414
+P 13750 9450
+F 0 "H3" H 13850 9500 50  0000 L CNN
+F 1 "MountingHole" H 13850 9450 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.7mm_M2.5" H 13750 9450 50  0001 C CNN
+F 3 "~" H 13750 9450 50  0001 C CNN
+	1    13750 9450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5F6552A3
+P 13750 9675
+F 0 "H4" H 13850 9750 50  0000 L CNN
+F 1 "MountingHole" H 13850 9650 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.7mm_M2.5" H 13750 9675 50  0001 C CNN
+F 3 "~" H 13750 9675 50  0001 C CNN
+	1    13750 9675
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2MS1T1B4M7QES:2MS1T1B4M7QES SW1
+U 1 1 5F8BE1E0
+P 1975 8725
+F 0 "SW1" V 2100 8075 50  0000 L CNN
+F 1 "2MS1T1B4M7QES" V 2725 8250 50  0000 L CNN
+F 2 "Myfootprints:2MS1T1B4M7QES" H 2725 8825 50  0001 L CNN
+F 3 "http://akizukidenshi.com/download/ds/cosland/2MS1T1B4M7QES.pdf" H 2725 8725 50  0001 L CNN
+F 4 "Sub-Miniature Toggle Switch" H 2725 8625 50  0001 L CNN "Description"
+F 5 "8.13" H 2725 8525 50  0001 L CNN "Height"
+F 6 "Cosland" H 2725 8425 50  0001 L CNN "Manufacturer_Name"
+F 7 "2MS1T1B4M7QES" H 2725 8325 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "2MS1T1B4M7QES" H 2725 8225 50  0001 L CNN "Arrow Part Number"
+	1    1975 8725
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2325 8475 2600 8475
+Wire Wire Line
+	2325 8475 2175 8475
+Wire Wire Line
+	2175 8475 2175 8850
+Wire Wire Line
+	2175 8850 1875 8850
+Wire Wire Line
+	1875 8850 1875 8725
+Connection ~ 2325 8475
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR0137
+U 1 1 5FF53026
+P 1675 8775
+F 0 "#PWR0137" H 1675 8775 30  0001 C CNN
+F 1 "GND" H 1675 8705 30  0001 C CNN
+F 2 "" H 1675 8775 60  0000 C CNN
+F 3 "" H 1675 8775 60  0000 C CNN
+	1    1675 8775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1675 8725 1675 8775
+$Comp
+L 2MS1T1B4M7QES:2MS1T1B4M7QES SW2
+U 1 1 601057DC
+P 8600 9625
+F 0 "SW2" V 9700 9200 50  0000 L CNN
+F 1 "2MS1T1B4M7QES" V 9350 9150 50  0000 L CNN
+F 2 "Myfootprints:2MS1T1B4M7QES" H 9350 9725 50  0001 L CNN
+F 3 "http://akizukidenshi.com/download/ds/cosland/2MS1T1B4M7QES.pdf" H 9350 9625 50  0001 L CNN
+F 4 "Sub-Miniature Toggle Switch" H 9350 9525 50  0001 L CNN "Description"
+F 5 "8.13" H 9350 9425 50  0001 L CNN "Height"
+F 6 "Cosland" H 9350 9325 50  0001 L CNN "Manufacturer_Name"
+F 7 "2MS1T1B4M7QES" H 9350 9225 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "2MS1T1B4M7QES" H 9350 9125 50  0001 L CNN "Arrow Part Number"
+	1    8600 9625
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	8400 9625 8400 9775
+Wire Wire Line
+	8400 9775 8875 9775
+Wire Wire Line
+	8600 9625 8600 9975
+Wire Wire Line
+	8600 9975 9200 9975
+Wire Wire Line
+	8500 9975 8500 9625
+Wire Wire Line
+	8075 9975 8500 9975
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR0107
+U 1 1 603C1FCD
+P 8300 9675
+F 0 "#PWR0107" H 8300 9675 30  0001 C CNN
+F 1 "GND" H 8300 9605 30  0001 C CNN
+F 2 "" H 8300 9675 60  0000 C CNN
+F 3 "" H 8300 9675 60  0000 C CNN
+	1    8300 9675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 9625 8300 9675
+Wire Wire Line
+	1475 9125 1775 9125
+Wire Wire Line
+	1775 8725 1775 9125
+NoConn ~ 8325 1850
+Wire Wire Line
+	7725 6350 8325 6350
+Wire Wire Line
+	4400 2550 5050 2550
+Connection ~ 6650 10325
+Wire Wire Line
+	6650 10325 7000 10325
+Wire Wire Line
+	6175 10325 6650 10325
+$Comp
+L Transistor_FET:IRLML6402 Q12
+U 1 1 614F59E1
+P 3950 7150
+F 0 "Q12" H 3875 6775 50  0000 L CNN
+F 1 "AO3401A" H 3850 6850 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 4150 7075 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 3950 7150 50  0001 L CNN
+	1    3950 7150
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	4950 9400 5375 9400
+Connection ~ 5375 9400
+Wire Wire Line
+	4950 9800 4950 9850
+Wire Wire Line
+	4950 9850 5375 9850
+Wire Wire Line
+	5375 9850 5375 9925
+Connection ~ 5375 9850
+$Comp
+L Transistor_FET:2N7002 Q13
+U 1 1 6160D85B
+P 4850 9600
+F 0 "Q13" H 4525 9825 50  0000 L CNN
+F 1 "AO3400A" H 4525 9750 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 5050 9525 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 4850 9600 50  0001 L CNN
+	1    4850 9600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 6950 4050 6925
+Wire Wire Line
+	4050 6925 4475 6925
+Connection ~ 4475 6925
+Wire Wire Line
+	3750 7150 3750 7450
+Connection ~ 3750 7450
+Wire Wire Line
+	3750 7450 4475 7450
+Wire Wire Line
+	4050 7350 4050 7550
+Wire Wire Line
+	4050 7875 4475 7875
+Wire Wire Line
+	4650 9600 4275 9600
+Text Label 4275 9600 0    50   ~ 0
+RES_MUTE
+Text Label 4475 7875 2    50   ~ 0
+RES_MUTE
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue R94
+U 1 1 61822BD2
+P 3900 7800
+F 0 "R94" V 3980 7800 40  0000 C CNN
+F 1 "1MEG" V 3907 7801 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 3830 7800 30  0001 C CNN
+F 3 "~" H 3900 7800 30  0000 C CNN
+	1    3900 7800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3900 7550 4050 7550
+Connection ~ 4050 7550
+Wire Wire Line
+	4050 7550 4050 7875
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR042
+U 1 1 61878D9B
+P 3900 8050
+F 0 "#PWR042" H 3900 8050 30  0001 C CNN
+F 1 "GND" H 3900 7980 30  0001 C CNN
+F 2 "" H 3900 8050 60  0000 C CNN
+F 3 "" H 3900 8050 60  0000 C CNN
+	1    3900 8050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 5775 2850 5950
+Wire Wire Line
+	2850 5950 3325 5950
+Connection ~ 2850 5775
+Text Notes 4025 9950 2    50   ~ 0
+(10uH, >10mA)
+Text Notes 6900 8925 2    50   ~ 0
+(2SB1203)
+Text Notes 875  950  0    118  Italic 24
+PARAMETER CONTROLS
+Wire Notes Line
+	725  675  725  3825
+Text Notes 9550 3550 0    50   Italic 0
+To enable Expansion Connector\nPULL DOWN THIS LINE to GND
+Text Notes 4875 7300 0    50   ~ 0
+R49 should tie to \n3V3 a little bit strongly\n4.7k is enough.
+Wire Wire Line
+	8325 7050 8700 7050
+Text GLabel 8700 7050 2    50   Output ~ 0
+MCLK
+Wire Wire Line
+	8325 6400 8325 6350
+Connection ~ 8325 6350
+Wire Wire Line
+	8325 6900 8325 7050
+$EndSCHEMATC
