@@ -8,7 +8,7 @@
 - 0805(2.0mm x 1.25mm) SMD Resistors & Capacitors
 - Through-Hole Ele-Caps
 - Unity Gain Analog Audio I/O
-- Absolute Phase transpearent.
+- Absolute Phase transparent.
 - Power ON/OFF/Reset Audio Pops Mute
 - Buffered I2S I/O Headers (with Enable control feature)
 - I6S Header pin for external DACs. 
