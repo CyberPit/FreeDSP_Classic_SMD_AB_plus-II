@@ -1,0 +1,17 @@
+0 ICSigma100In1 O_C41_A0_P1_out Link7 O_C41_A0_P2_out Link21
+1 RegReadAlgADCIn1 O_C117_A0_P1_out Link3
+2 RegReadAlgADCIn2 O_C101_A0_P1_out Link20
+3 EQ1940Dual2 I_C31_A0_P1_in Link7 I_C31_A0_P2_in Link21 O_C31_A0_P3_out Link8 O_C31_A0_P4_out Link9
+4 EQ1940Dual1 I_C8_A0_P1_in Link8 I_C8_A0_P2_in Link9 O_C8_A0_P3_out Link6 O_C8_A0_P4_out Link22
+5 CrossoverFilter3WayAlgDP1 I_C37_A0_P1_in Link6 O_C37_A0_P2_out Link0 O_C37_A0_P3_out Link1 O_C37_A0_P4_out Link2
+6 CrossoverFilter3WayAlgDP2 I_C37_A1_P1_in Link22 O_C37_A1_P2_out Link23 O_C37_A1_P3_out Link24 O_C37_A1_P4_out Link25
+7 ExtSWGainDB1 I_C74_A0_P1_in Link3 I_C74_A0_P2_in Link0 I_C74_A0_P4_in Link1 I_C74_A0_P6_in Link2 I_C74_A0_P8_in Link23 I_C74_A0_P10_in Link24 I_C74_A0_P12_in Link25 O_C74_A0_P3_out Link16 O_C74_A0_P5_out Link5 O_C74_A0_P7_out Link12 O_C74_A0_P9_out Link19 O_C74_A0_P11_out Link10 O_C74_A0_P13_out Link13
+8 ExtSWGainDB2 I_C4_A0_P1_in Link20 I_C4_A0_P2_in Link16 I_C4_A0_P4_in Link19 O_C4_A0_P3_out Link17 O_C4_A0_P5_out Link18
+9 MultCtrlDelGrowAlg1 I_C131_A0_P1_in Link5 I_C131_A0_P3_in Link10 O_C131_A0_P2_out Link4 O_C131_A0_P4_out Link11
+10 MultCtrlDelGrowAlg2 I_C147_A0_P1_in Link12 I_C147_A0_P3_in Link13 O_C147_A0_P2_out Link14 O_C147_A0_P4_out Link15
+11 ICSigma100Out3 I_C2_A0_P1_in Link4
+12 ICSigma100Out1 I_C0_A0_P1_in Link11
+13 ICSigma100Out5 I_C10_A0_P1_in Link14
+14 ICSigma100Out6 I_C15_A0_P1_in Link15
+15 ICSigma100Out4 I_C68_A0_P1_in Link17
+16 ICSigma100Out2 I_C64_A0_P1_in Link18
