@@ -13,11 +13,15 @@
 - Buffered I2S I/O Headers (with Enable control feature)
 - I6S Header pin for external DACs. 
 
-Project web page: (Machine Translation)
-https://translate.google.com/translate?hl=ja&sl=ja&tl=en&u=https%3A%2F%2Fcyberpithilo.web.fc2.com%2Faudio%2Ffreedsp%2Findex.html
 
 Project web page: (Direct Link)
 https://cyberpithilo.web.fc2.com/audio/freedsp/index.html
+
+Project web page: (Yandex Machine Translation)
+https://translate.yandex.com/translate?url=https%3A%2F%2Fcyberpithilo.web.fc2.com%2Faudio%2Ffreedsp%2Findex.html&lang=ja-en
+
+Project web page: (Google Machine Translation)
+https://translate.google.com/translate?hl=ja&sl=ja&tl=en&u=https%3A%2F%2Fcyberpithilo.web.fc2.com%2Faudio%2Ffreedsp%2Findex.html
 
 I had ver0.1 board ordered to JLPCB (https://jlcpcb.com/) 
 You can order SMT and Boards. My ordered PCBA file package also included. 
