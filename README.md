@@ -1,5 +1,7 @@
 # FreeDSP_Classic_SMD_AB_plus-II
 
+![Image of FreeDSP Classic SMD plus2](https://github.com/freeDSP/FreeDSP_Classic_SMD_AB_plus-II/blob/main/Photo/FDSPplus2Mounted.jpg?raw=true)
+
 - 2in6out RCA jacks
 - Integrated FreeUSBi
 - A/B Selectable EEPROMs
