@@ -25,8 +25,8 @@ https://translate.yandex.com/translate?url=https%3A%2F%2Fcyberpithilo.web.fc2.co
 Project web page: (Google Machine Translation)
 https://translate.google.com/translate?hl=ja&sl=ja&tl=en&u=https%3A%2F%2Fcyberpithilo.web.fc2.com%2Faudio%2Ffreedsp%2Findex.html
 
-I had ver0.1 board ordered to JLPCB (https://jlcpcb.com/) 
-You can order SMT and Boards. My ordered PCBA file package also included. 
+I had the ver0.1 board ordered to JLPCB (https://jlcpcb.com/) 
+You can order SMT and Boards. My ordered PCBA file package is also included. 
 
 # License
 This work and all other materials under https://github.com/freeDSP are licensed under a Creative Commons Attribution Share-Alike 4.0 license. This allows for both personal and commercial derivative works, as long as they credit freeDSP and release their designs under the same license.
